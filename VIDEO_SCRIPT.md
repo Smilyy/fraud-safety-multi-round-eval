@@ -37,16 +37,15 @@ Scroll slowly down the README. Pause briefly on:
 ```bash
 git clone https://github.com/Smilyy/fraud-safety-multi-round-eval.git
 cd fraud-safety-multi-round-eval
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate fraud-eval
 ```
 
-(You can `pip install -q` to keep the output tidy. If install is slow, edit the recording to cut the long pip output and resume once it's done.)
+(If conda env create is slow, cut the long install output in your recording and resume once the prompt returns.)
 
 **Say** while it installs:
 
-> "Setup is the standard Python workflow: clone the repo, make a virtual environment, install requirements. The only dependencies are PyTorch, torch-geometric, transformers, and the usual numpy / pandas / scikit-learn / matplotlib. There is no Docker image — the only host-specific piece is which PyTorch CUDA wheel to install, and the `requirements.txt` uses compatible-release pins so it works on most CUDA versions."
+> "Setup uses conda, which is the recommended way because it handles the PyTorch and CUDA version pairing automatically. The `environment.yml` in the repo creates a self-contained environment called `fraud-eval` with Python 3.11, PyTorch, torch-geometric, transformers, and the usual data science stack. If you don't have conda, there's also a `requirements.txt` for pip, but you'll need to install the PyTorch CUDA wheel separately first."
 
 ### (02:00 – 04:30) Run the smoke check
 

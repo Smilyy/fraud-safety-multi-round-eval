@@ -8,13 +8,22 @@ This guide maps each paper table / figure / claim to the exact command that prod
 
 ### Software
 
+Conda is the recommended way to install — it handles the PyTorch + CUDA pairing automatically:
+
 ```bash
-python -m venv .venv
-source .venv/bin/activate
+conda env create -f environment.yml
+conda activate fraud-eval
+```
+
+No conda? Pip fallback (you will need to install a CUDA-compatible PyTorch wheel separately first):
+
+```bash
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.txt
 ```
 
-Tested on Python 3.11, PyTorch 2.11 (CUDA 12.8), torch_geometric 2.7, transformers 5.3. Earlier versions of these should work too; see `requirements.txt` for the minimum versions tested.
+Developed with Python 3.11, PyTorch 2.11 dev (CUDA 12.8), torch_geometric 2.7, transformers 5.3.
+Any torch ≥ 2.2 with CUDA 12.x should reproduce the results.
 
 ### Hardware
 

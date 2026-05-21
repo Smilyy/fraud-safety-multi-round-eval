@@ -150,16 +150,23 @@ The paper PDF itself, `paper/main.pdf`, is the authoritative description of meth
 
 ### Setup, from a clean checkout
 
+Conda is the recommended approach — it resolves the PyTorch + CUDA pairing automatically and matches the environment the frozen suite was run in:
+
 ```bash
 git clone https://github.com/Smilyy/fraud-safety-multi-round-eval.git
 cd fraud-safety-multi-round-eval
+conda env create -f environment.yml
+conda activate fraud-eval
+```
 
-python -m venv .venv
-source .venv/bin/activate
+No conda? Pip fallback — install a CUDA-compatible PyTorch wheel first, then the rest:
+
+```bash
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.txt
 ```
 
-`requirements.txt` uses "compatible release" pins (`>=` against the minimum tested versions), not exact-pin, so installation works across common CUDA versions. The frozen-suite numbers were produced with the versions listed in the table above.
+The frozen-suite numbers were produced with the versions listed in the table above. Any torch ≥ 2.2 with CUDA 12.x reproduces them.
 
 ### Optional: GPU-backed defender LLM
 

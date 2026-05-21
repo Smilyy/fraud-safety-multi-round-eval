@@ -31,7 +31,8 @@ experiments/
     paper_graph_cache_256/                   Cached graph encoders (frozen)
 REPRODUCE.md                      Per-table / per-figure reproduction commands
 PR3_HANDOVER.md                   Curtin COMP6016 Progress Report 3 handover
-requirements.txt                  Python dependencies
+environment.yml                   Conda environment (recommended)
+requirements.txt                  Pip fallback (no conda)
 .gitignore
 ```
 
@@ -41,11 +42,20 @@ The Elliptic2 raw data (107 GB) and exploratory / smoke / pilot result directori
 
 ## Quickstart
 
-Five-minute smoke run on CPU (no GPU required):
+**Step 1 — set up the environment (conda recommended):**
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/Smilyy/fraud-safety-multi-round-eval.git
+cd fraud-safety-multi-round-eval
+conda env create -f environment.yml
+conda activate fraud-eval
+```
 
+No conda? Use pip instead: `pip install -r requirements.txt`
+
+**Step 2 — five-minute smoke run on CPU (no GPU required):**
+
+```bash
 python experiments/src/run_fraud_r1_joint_graph.py \
   --base-data experiments/data/Fraud-R1/dataset/FP-base-full/FP-base-English.json \
   --levelup-data experiments/data/Fraud-R1/dataset/FP-levelup-full/FP-levelup-English.json \
