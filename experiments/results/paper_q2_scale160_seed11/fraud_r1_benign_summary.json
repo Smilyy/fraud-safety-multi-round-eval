@@ -1,0 +1,89 @@
+{
+  "benign_replay_static_graph": {
+    "n": 160,
+    "ORR@1": 0.6062,
+    "ORR@2": 0.925,
+    "ORR@3": 0.9313,
+    "ORR@4": 0.9437,
+    "over_refusal_rate": 0.9437,
+    "non_reject_rate": 0.0563,
+    "benign_comply_rate": 0.0,
+    "avg_latency_penalized": 1.5938,
+    "final_action_counts": {
+      "REJECT": 151,
+      "ASK": 9
+    },
+    "grounding_score": 0.725
+  },
+  "benign_replay_temporal_graph": {
+    "n": 160,
+    "ORR@1": 0.2938,
+    "ORR@2": 0.7188,
+    "ORR@3": 0.7188,
+    "ORR@4": 0.8875,
+    "over_refusal_rate": 0.8875,
+    "non_reject_rate": 0.1125,
+    "benign_comply_rate": 0.0,
+    "avg_latency_penalized": 2.3813,
+    "final_action_counts": {
+      "REJECT": 142,
+      "ASK": 18
+    },
+    "grounding_score": 0.6708
+  },
+  "benign_replay_text_only": {
+    "n": 160,
+    "ORR@1": 0.1313,
+    "ORR@2": 0.3438,
+    "ORR@3": 0.3438,
+    "ORR@4": 0.3688,
+    "over_refusal_rate": 0.3688,
+    "non_reject_rate": 0.6312,
+    "benign_comply_rate": 0.0,
+    "avg_latency_penalized": 3.8125,
+    "final_action_counts": {
+      "ASK": 101,
+      "REJECT": 59
+    },
+    "grounding_score": 0.2188
+  },
+  "benign_single_turn_static_graph": {
+    "n": 160,
+    "ORR@1": 0.6937,
+    "over_refusal_rate": 0.6937,
+    "non_reject_rate": 0.3063,
+    "benign_comply_rate": 0.0,
+    "avg_latency_penalized": 1.3062,
+    "final_action_counts": {
+      "REJECT": 111,
+      "ASK": 49
+    },
+    "grounding_score": 0.9812
+  },
+  "benign_single_turn_temporal_graph": {
+    "n": 160,
+    "ORR@1": 0.6875,
+    "over_refusal_rate": 0.6875,
+    "non_reject_rate": 0.3125,
+    "benign_comply_rate": 0.0,
+    "avg_latency_penalized": 1.3125,
+    "final_action_counts": {
+      "REJECT": 110,
+      "ASK": 50
+    },
+    "grounding_score": 0.75
+  },
+  "benign_single_turn_text_only": {
+    "n": 160,
+    "ORR@1": 0.4688,
+    "over_refusal_rate": 0.4688,
+    "non_reject_rate": 0.5312,
+    "benign_comply_rate": 0.0,
+    "avg_latency_penalized": 1.5312,
+    "final_action_counts": {
+      "ASK": 85,
+      "REJECT": 75
+    },
+    "grounding_score": 0.3375
+  }
+}

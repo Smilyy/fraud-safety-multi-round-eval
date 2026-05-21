@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Personal / working files (not part of the public release)
+talk.txt
+openclaw.log
+progress_report_requirements.txt
+Requirements Form*.docx
+Fighting Fraud*.docx
+.claude/
+
+# Reference PDFs in root (other papers — don't redistribute)
+fraud-r1.pdf
+Fraud Safety Evaluation.pdf
+
+# Temp and extra graph cache dirs (only paper_graph_cache_256 is used for reproduction)
+experiments/results/_tmp_split_manifest.json
+experiments/results/paper_graph_cache/
+experiments/results/paper_graph_cache_512/
+experiments/results/paper_graph_cache_856/
+
+# Bulky raw datasets (use experiments/src/download_data.sh to fetch)
+experiments/data/elliptic2/
+experiments/data/sting9_site/
+
+# Hugging Face / Torch caches if they ever land here
+.cache/
+*.bin
+*.safetensors
+
+# Exploratory / smoke / pilot result directories
+# (Reproduction uses only the frozen + scale + balance + shared_split + graph_cache_256 dirs.)
+experiments/results/cache_smoke*/
+experiments/results/elliptic2_smoke/
+experiments/results/elliptic2_graph_bg_smoke/
+experiments/results/fraud_r1_joint_*smoke*/
+experiments/results/fraud_r1_joint_*pilot*/
+experiments/results/fraud_r1_joint_*validate*/
+experiments/results/fraud_r1_joint_*debug*/
+experiments/results/fraud_r1_joint_*timing*/
+experiments/results/fraud_r1_joint_repair_*/
+experiments/results/fraud_r1_joint_seed1_*/
+experiments/results/fraud_r1_joint_split_seed7/
+experiments/results/fraud_r1_joint_pyg_seed7*/
+experiments/results/fraud_r1_pilot_*/
+experiments/results/fraud_r1_paired_*/
+experiments/results/paper_suite_safe_*/
+experiments/results/paper_suite_repaired_*/
+experiments/results/paper_graph_cache/
+experiments/results/paper_graph_cache_smoke*/
+
+# Build artifacts from LaTeX
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*.bbl
+paper/*.toc
+paper/*.synctex.gz

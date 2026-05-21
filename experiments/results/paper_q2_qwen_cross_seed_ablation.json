@@ -1,0 +1,129 @@
+{
+  "n_test_cases": 160,
+  "backbone": "Qwen/Qwen2.5-1.5B-Instruct",
+  "seeds": [
+    7,
+    11
+  ],
+  "split_manifests": {
+    "seed_7": "experiments/results/paper_shared_split_seed7/split_manifest.json",
+    "seed_11": "experiments/results/paper_shared_split_seed11/split_manifest.json"
+  },
+  "graph_caches": {
+    "seed_7": "experiments/results/paper_graph_cache_256/seed7_gru_e3",
+    "seed_11": "experiments/results/paper_graph_cache_256/seed11_gru_e3"
+  },
+  "fraud_side_AUSR": {
+    "seed_7": {
+      "replay_static_graph": {
+        "real": 0.8562,
+        "shuffled": 0.875,
+        "diff": 0.0188
+      },
+      "replay_temporal_graph": {
+        "real": 0.8781,
+        "shuffled": 0.8859,
+        "diff": 0.0078
+      },
+      "adaptive_static_graph": {
+        "real": 0.8391,
+        "shuffled": 0.8594,
+        "diff": 0.0203
+      },
+      "adaptive_temporal_graph": {
+        "real": 0.8735,
+        "shuffled": 0.9015,
+        "diff": 0.028
+      },
+      "single_turn_static_graph": {
+        "real": 0.7688,
+        "shuffled": 0.7812,
+        "diff": 0.0124
+      },
+      "single_turn_temporal_graph": {
+        "real": 0.8063,
+        "shuffled": 0.8187,
+        "diff": 0.0124
+      }
+    },
+    "seed_11": {
+      "replay_static_graph": {
+        "real": 0.8453,
+        "shuffled": 0.8531,
+        "diff": 0.0078
+      },
+      "replay_temporal_graph": {
+        "real": 0.9187,
+        "shuffled": 0.9,
+        "diff": -0.0187
+      },
+      "adaptive_static_graph": {
+        "real": 0.8172,
+        "shuffled": 0.8281,
+        "diff": 0.0109
+      },
+      "adaptive_temporal_graph": {
+        "real": 0.9094,
+        "shuffled": 0.8812,
+        "diff": -0.0282
+      },
+      "single_turn_static_graph": {
+        "real": 0.7625,
+        "shuffled": 0.7625,
+        "diff": 0.0
+      },
+      "single_turn_temporal_graph": {
+        "real": 0.8313,
+        "shuffled": 0.8187,
+        "diff": -0.0126
+      }
+    }
+  },
+  "benign_side_ORR": {
+    "seed_7": {
+      "benign_single_turn_static_graph": {
+        "real": 0.6875,
+        "shuffled": 0.9,
+        "diff": 0.2125
+      },
+      "benign_single_turn_temporal_graph": {
+        "real": 0.725,
+        "shuffled": 0.775,
+        "diff": 0.05
+      },
+      "benign_replay_static_graph": {
+        "real": 0.975,
+        "shuffled": 0.9812,
+        "diff": 0.0062
+      },
+      "benign_replay_temporal_graph": {
+        "real": 0.875,
+        "shuffled": 0.9812,
+        "diff": 0.1062
+      }
+    },
+    "seed_11": {
+      "benign_single_turn_static_graph": {
+        "real": 0.6937,
+        "shuffled": 0.9,
+        "diff": 0.2063
+      },
+      "benign_single_turn_temporal_graph": {
+        "real": 0.6875,
+        "shuffled": 0.75,
+        "diff": 0.0625
+      },
+      "benign_replay_static_graph": {
+        "real": 0.9437,
+        "shuffled": 0.9875,
+        "diff": 0.0438
+      },
+      "benign_replay_temporal_graph": {
+        "real": 0.8875,
+        "shuffled": 0.975,
+        "diff": 0.0875
+      }
+    }
+  },
+  "interpretation": "Both the structure-presence-dominant + asymmetric-high-side-score-magnitude decomposition and the fraud-side null-result on shuffling replicate cleanly across seeds 7 and 11 on Qwen-1.5B. Three of four benign-side shuffle deltas agree to within +/- 0.02 between seeds; the fourth (replay-static) shows minor seed variation but both values are small because real-graph is at ceiling. Fraud-side shuffle deltas are within +/- 0.03 across all 12 graph cells with random sign."
+}

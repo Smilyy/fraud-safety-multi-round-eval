@@ -1,0 +1,22 @@
+{
+  "train_cases": 256,
+  "test_cases": 20,
+  "seed": 7,
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "temporal_backbone": "gru",
+  "graph_epochs": 3,
+  "graph_device": "cpu",
+  "graph_cache_dir": "experiments/results/paper_graph_cache_256/seed7_gru_e3",
+  "llm_device": "cuda",
+  "order_variants": [
+    "original",
+    "reverse",
+    "shuffle"
+  ],
+  "context_modes": [
+    "text_only",
+    "static_graph",
+    "temporal_graph"
+  ],
+  "split_manifest": "experiments/results/paper_shared_split_seed7/split_manifest.json"
+}

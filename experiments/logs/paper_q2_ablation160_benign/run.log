@@ -1,0 +1,38 @@
+[graph-cache] loaded cached graph models from experiments/results/paper_graph_cache_256/seed7_gru_e3
+[graph-ablation] shuffle_risk mode active: 160 test cases permuted
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 5114.64it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[benign_single_turn] completed 10/160 cases
+[benign_single_turn] completed 20/160 cases
+[benign_single_turn] completed 30/160 cases
+[benign_single_turn] completed 40/160 cases
+[benign_single_turn] completed 50/160 cases
+[benign_single_turn] completed 60/160 cases
+[benign_single_turn] completed 70/160 cases
+[benign_single_turn] completed 80/160 cases
+[benign_single_turn] completed 90/160 cases
+[benign_single_turn] completed 100/160 cases
+[benign_single_turn] completed 110/160 cases
+[benign_single_turn] completed 120/160 cases
+[benign_single_turn] completed 130/160 cases
+[benign_single_turn] completed 140/160 cases
+[benign_single_turn] completed 150/160 cases
+[benign_single_turn] completed 160/160 cases
+[benign_replay] completed 10/160 cases
+[benign_replay] completed 20/160 cases
+[benign_replay] completed 30/160 cases
+[benign_replay] completed 40/160 cases
+[benign_replay] completed 50/160 cases
+[benign_replay] completed 60/160 cases
+[benign_replay] completed 70/160 cases
+[benign_replay] completed 80/160 cases
+[benign_replay] completed 90/160 cases
+[benign_replay] completed 100/160 cases
+[benign_replay] completed 110/160 cases
+[benign_replay] completed 120/160 cases
+[benign_replay] completed 130/160 cases
+[benign_replay] completed 140/160 cases
+[benign_replay] completed 150/160 cases
+[benign_replay] completed 160/160 cases

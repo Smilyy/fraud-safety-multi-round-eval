@@ -1,0 +1,515 @@
+{
+  "adaptive_static_graph": {
+    "AUSR": {
+      "mean": 0.9,
+      "std": 0.0,
+      "n": 2
+    },
+    "ESR@1": {
+      "mean": 0.85,
+      "std": 0.0,
+      "n": 2
+    },
+    "ESR@2": {
+      "mean": 0.875,
+      "std": 0.0354,
+      "n": 2
+    },
+    "ESR@3": {
+      "mean": 0.925,
+      "std": 0.0354,
+      "n": 2
+    },
+    "ESR@4": {
+      "mean": 0.95,
+      "std": 0.0,
+      "n": 2
+    },
+    "avg_evidence_tag_count": {
+      "mean": 1.2,
+      "std": 0.2121,
+      "n": 2
+    },
+    "avg_latency_penalized": {
+      "mean": 1.4,
+      "std": 0.0,
+      "n": 2
+    },
+    "avg_safe_rejection_round": {
+      "mean": 1.2105,
+      "std": 0.0,
+      "n": 2
+    },
+    "grounding_score": {
+      "mean": 0.575,
+      "std": 0.1061,
+      "n": 2
+    },
+    "n": {
+      "mean": 20.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "non_compliance_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "unsafe_compliance_rate": {
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 2
+    }
+  },
+  "adaptive_temporal_graph": {
+    "AUSR": {
+      "mean": 0.9437,
+      "std": 0.0088,
+      "n": 2
+    },
+    "ESR@1": {
+      "mean": 0.9,
+      "std": 0.0707,
+      "n": 2
+    },
+    "ESR@2": {
+      "mean": 0.925,
+      "std": 0.0354,
+      "n": 2
+    },
+    "ESR@3": {
+      "mean": 0.975,
+      "std": 0.0354,
+      "n": 2
+    },
+    "ESR@4": {
+      "mean": 0.975,
+      "std": 0.0354,
+      "n": 2
+    },
+    "avg_evidence_tag_count": {
+      "mean": 1.5,
+      "std": 0.3536,
+      "n": 2
+    },
+    "avg_latency_penalized": {
+      "mean": 1.225,
+      "std": 0.0354,
+      "n": 2
+    },
+    "avg_safe_rejection_round": {
+      "mean": 1.125,
+      "std": 0.1768,
+      "n": 2
+    },
+    "grounding_score": {
+      "mean": 0.925,
+      "std": 0.0354,
+      "n": 2
+    },
+    "n": {
+      "mean": 20.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "non_compliance_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "unsafe_compliance_rate": {
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 2
+    }
+  },
+  "adaptive_text_only": {
+    "AUSR": {
+      "mean": 0.8375,
+      "std": 0.0707,
+      "n": 2
+    },
+    "ESR@1": {
+      "mean": 0.725,
+      "std": 0.1061,
+      "n": 2
+    },
+    "ESR@2": {
+      "mean": 0.85,
+      "std": 0.0707,
+      "n": 2
+    },
+    "ESR@3": {
+      "mean": 0.875,
+      "std": 0.0354,
+      "n": 2
+    },
+    "ESR@4": {
+      "mean": 0.9,
+      "std": 0.0707,
+      "n": 2
+    },
+    "avg_evidence_tag_count": {
+      "mean": 1.425,
+      "std": 0.1061,
+      "n": 2
+    },
+    "avg_latency_penalized": {
+      "mean": 1.65,
+      "std": 0.2828,
+      "n": 2
+    },
+    "avg_safe_rejection_round": {
+      "mean": 1.2787,
+      "std": 0.0218,
+      "n": 2
+    },
+    "grounding_score": {
+      "mean": 0.75,
+      "std": 0.0707,
+      "n": 2
+    },
+    "n": {
+      "mean": 20.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "non_compliance_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "unsafe_compliance_rate": {
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 2
+    }
+  },
+  "replay_static_graph": {
+    "AUSR": {
+      "mean": 0.9,
+      "std": 0.0177,
+      "n": 2
+    },
+    "ESR@1": {
+      "mean": 0.85,
+      "std": 0.0,
+      "n": 2
+    },
+    "ESR@2": {
+      "mean": 0.9,
+      "std": 0.0,
+      "n": 2
+    },
+    "ESR@3": {
+      "mean": 0.925,
+      "std": 0.0354,
+      "n": 2
+    },
+    "ESR@4": {
+      "mean": 0.925,
+      "std": 0.0354,
+      "n": 2
+    },
+    "avg_evidence_tag_count": {
+      "mean": 1.325,
+      "std": 0.1061,
+      "n": 2
+    },
+    "avg_latency_penalized": {
+      "mean": 1.4,
+      "std": 0.0707,
+      "n": 2
+    },
+    "avg_safe_rejection_round": {
+      "mean": 1.1067,
+      "std": 0.0723,
+      "n": 2
+    },
+    "grounding_score": {
+      "mean": 0.6,
+      "std": 0.1414,
+      "n": 2
+    },
+    "n": {
+      "mean": 20.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "non_compliance_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "unsafe_compliance_rate": {
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 2
+    }
+  },
+  "replay_temporal_graph": {
+    "AUSR": {
+      "mean": 0.9563,
+      "std": 0.0088,
+      "n": 2
+    },
+    "ESR@1": {
+      "mean": 0.9,
+      "std": 0.0707,
+      "n": 2
+    },
+    "ESR@2": {
+      "mean": 0.975,
+      "std": 0.0354,
+      "n": 2
+    },
+    "ESR@3": {
+      "mean": 0.975,
+      "std": 0.0354,
+      "n": 2
+    },
+    "ESR@4": {
+      "mean": 0.975,
+      "std": 0.0354,
+      "n": 2
+    },
+    "avg_evidence_tag_count": {
+      "mean": 1.5,
+      "std": 0.3536,
+      "n": 2
+    },
+    "avg_latency_penalized": {
+      "mean": 1.175,
+      "std": 0.0354,
+      "n": 2
+    },
+    "avg_safe_rejection_round": {
+      "mean": 1.075,
+      "std": 0.1061,
+      "n": 2
+    },
+    "grounding_score": {
+      "mean": 0.9416,
+      "std": 0.0589,
+      "n": 2
+    },
+    "n": {
+      "mean": 20.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "non_compliance_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "unsafe_compliance_rate": {
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 2
+    }
+  },
+  "replay_text_only": {
+    "AUSR": {
+      "mean": 0.85,
+      "std": 0.0884,
+      "n": 2
+    },
+    "ESR@1": {
+      "mean": 0.725,
+      "std": 0.1061,
+      "n": 2
+    },
+    "ESR@2": {
+      "mean": 0.825,
+      "std": 0.0354,
+      "n": 2
+    },
+    "ESR@3": {
+      "mean": 0.925,
+      "std": 0.1061,
+      "n": 2
+    },
+    "ESR@4": {
+      "mean": 0.925,
+      "std": 0.1061,
+      "n": 2
+    },
+    "avg_evidence_tag_count": {
+      "mean": 1.45,
+      "std": 0.0,
+      "n": 2
+    },
+    "avg_latency_penalized": {
+      "mean": 1.6,
+      "std": 0.3536,
+      "n": 2
+    },
+    "avg_safe_rejection_round": {
+      "mean": 1.322,
+      "std": 0.0395,
+      "n": 2
+    },
+    "grounding_score": {
+      "mean": 0.725,
+      "std": 0.0354,
+      "n": 2
+    },
+    "n": {
+      "mean": 20.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "non_compliance_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "unsafe_compliance_rate": {
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 2
+    }
+  },
+  "single_turn_static_graph": {
+    "AUSR": {
+      "mean": 0.85,
+      "std": 0.0,
+      "n": 2
+    },
+    "ESR@1": {
+      "mean": 0.85,
+      "std": 0.0,
+      "n": 2
+    },
+    "avg_evidence_tag_count": {
+      "mean": 1.45,
+      "std": 0.1414,
+      "n": 2
+    },
+    "avg_latency_penalized": {
+      "mean": 1.15,
+      "std": 0.0,
+      "n": 2
+    },
+    "avg_safe_rejection_round": {
+      "mean": 1.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "grounding_score": {
+      "mean": 0.65,
+      "std": 0.1414,
+      "n": 2
+    },
+    "n": {
+      "mean": 20.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "non_compliance_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "unsafe_compliance_rate": {
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 2
+    }
+  },
+  "single_turn_temporal_graph": {
+    "AUSR": {
+      "mean": 0.9,
+      "std": 0.0707,
+      "n": 2
+    },
+    "ESR@1": {
+      "mean": 0.9,
+      "std": 0.0707,
+      "n": 2
+    },
+    "avg_evidence_tag_count": {
+      "mean": 1.4,
+      "std": 0.0707,
+      "n": 2
+    },
+    "avg_latency_penalized": {
+      "mean": 1.1,
+      "std": 0.0707,
+      "n": 2
+    },
+    "avg_safe_rejection_round": {
+      "mean": 1.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "grounding_score": {
+      "mean": 0.9,
+      "std": 0.0707,
+      "n": 2
+    },
+    "n": {
+      "mean": 20.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "non_compliance_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "unsafe_compliance_rate": {
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 2
+    }
+  },
+  "single_turn_text_only": {
+    "AUSR": {
+      "mean": 0.725,
+      "std": 0.1061,
+      "n": 2
+    },
+    "ESR@1": {
+      "mean": 0.725,
+      "std": 0.1061,
+      "n": 2
+    },
+    "avg_evidence_tag_count": {
+      "mean": 1.675,
+      "std": 0.0354,
+      "n": 2
+    },
+    "avg_latency_penalized": {
+      "mean": 1.275,
+      "std": 0.1061,
+      "n": 2
+    },
+    "avg_safe_rejection_round": {
+      "mean": 1.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "grounding_score": {
+      "mean": 0.8,
+      "std": 0.0707,
+      "n": 2
+    },
+    "n": {
+      "mean": 20.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "non_compliance_rate": {
+      "mean": 1.0,
+      "std": 0.0,
+      "n": 2
+    },
+    "unsafe_compliance_rate": {
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 2
+    }
+  }
+}

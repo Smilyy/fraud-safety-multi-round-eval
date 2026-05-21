@@ -1,0 +1,91 @@
+{
+  "benign_replay_static_graph": {
+    "n": 20,
+    "ORR@1": 0.8,
+    "ORR@2": 0.8,
+    "ORR@3": 0.8,
+    "ORR@4": 0.8,
+    "over_refusal_rate": 0.8,
+    "non_reject_rate": 0.2,
+    "benign_comply_rate": 0.2,
+    "avg_latency_penalized": 1.8,
+    "final_action_counts": {
+      "REJECT": 16,
+      "COMPLY": 4
+    },
+    "grounding_score": 1.0
+  },
+  "benign_replay_temporal_graph": {
+    "n": 20,
+    "ORR@1": 0.75,
+    "ORR@2": 0.75,
+    "ORR@3": 0.75,
+    "ORR@4": 0.75,
+    "over_refusal_rate": 0.75,
+    "non_reject_rate": 0.25,
+    "benign_comply_rate": 0.25,
+    "avg_latency_penalized": 2.0,
+    "final_action_counts": {
+      "REJECT": 15,
+      "COMPLY": 5
+    },
+    "grounding_score": 1.0
+  },
+  "benign_replay_text_only": {
+    "n": 20,
+    "ORR@1": 0.3,
+    "ORR@2": 0.35,
+    "ORR@3": 0.35,
+    "ORR@4": 0.35,
+    "over_refusal_rate": 0.35,
+    "non_reject_rate": 0.65,
+    "benign_comply_rate": 0.65,
+    "avg_latency_penalized": 3.65,
+    "final_action_counts": {
+      "COMPLY": 13,
+      "REJECT": 7
+    },
+    "grounding_score": 0.05
+  },
+  "benign_single_turn_static_graph": {
+    "n": 20,
+    "ORR@1": 0.85,
+    "over_refusal_rate": 0.85,
+    "non_reject_rate": 0.15,
+    "benign_comply_rate": 0.0,
+    "avg_latency_penalized": 1.15,
+    "final_action_counts": {
+      "REJECT": 17,
+      "ASK": 3
+    },
+    "grounding_score": 1.0
+  },
+  "benign_single_turn_temporal_graph": {
+    "n": 20,
+    "ORR@1": 0.8,
+    "over_refusal_rate": 0.8,
+    "non_reject_rate": 0.2,
+    "benign_comply_rate": 0.05,
+    "avg_latency_penalized": 1.2,
+    "final_action_counts": {
+      "REJECT": 16,
+      "ASK": 3,
+      "COMPLY": 1
+    },
+    "grounding_score": 1.0
+  },
+  "benign_single_turn_text_only": {
+    "n": 20,
+    "ORR@1": 0.25,
+    "over_refusal_rate": 0.25,
+    "non_reject_rate": 0.75,
+    "benign_comply_rate": 0.55,
+    "avg_latency_penalized": 1.75,
+    "final_action_counts": {
+      "COMPLY": 11,
+      "REJECT": 5,
+      "ASK": 4
+    },
+    "grounding_score": 0.1
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "qwen_gru_seed7": {
+    "original": {
+      "temporal_AUSR": 0.9625,
+      "static_AUSR": 0.8875,
+      "text_AUSR": 0.7875,
+      "temporal_minus_static_AUSR": 0.075,
+      "temporal_minus_text_AUSR": 0.175,
+      "temporal_unsafe_compliance_rate": 0.0,
+      "static_unsafe_compliance_rate": 0.0,
+      "text_unsafe_compliance_rate": 0.0
+    },
+    "reverse": {
+      "temporal_AUSR": 0.7875,
+      "static_AUSR": 0.775,
+      "text_AUSR": 0.5875,
+      "temporal_minus_static_AUSR": 0.0125,
+      "temporal_minus_text_AUSR": 0.2,
+      "temporal_unsafe_compliance_rate": 0.0,
+      "static_unsafe_compliance_rate": 0.0,
+      "text_unsafe_compliance_rate": 0.0
+    },
+    "shuffle": {
+      "temporal_AUSR": 0.85,
+      "static_AUSR": 0.8625,
+      "text_AUSR": 0.7625,
+      "temporal_minus_static_AUSR": -0.0125,
+      "temporal_minus_text_AUSR": 0.0875,
+      "temporal_unsafe_compliance_rate": 0.05,
+      "static_unsafe_compliance_rate": 0.0,
+      "text_unsafe_compliance_rate": 0.0
+    }
+  },
+  "qwen_tgn_seed7": {
+    "original": {
+      "temporal_AUSR": 0.8875,
+      "static_AUSR": 0.8875,
+      "text_AUSR": 0.7875,
+      "temporal_minus_static_AUSR": 0.0,
+      "temporal_minus_text_AUSR": 0.1,
+      "temporal_unsafe_compliance_rate": 0.05,
+      "static_unsafe_compliance_rate": 0.05,
+      "text_unsafe_compliance_rate": 0.0
+    },
+    "reverse": {
+      "temporal_AUSR": 0.7875,
+      "static_AUSR": 0.8,
+      "text_AUSR": 0.5875,
+      "temporal_minus_static_AUSR": -0.0125,
+      "temporal_minus_text_AUSR": 0.2,
+      "temporal_unsafe_compliance_rate": 0.0,
+      "static_unsafe_compliance_rate": 0.05,
+      "text_unsafe_compliance_rate": 0.0
+    },
+    "shuffle": {
+      "temporal_AUSR": 0.875,
+      "static_AUSR": 0.8625,
+      "text_AUSR": 0.7625,
+      "temporal_minus_static_AUSR": 0.0125,
+      "temporal_minus_text_AUSR": 0.1125,
+      "temporal_unsafe_compliance_rate": 0.05,
+      "static_unsafe_compliance_rate": 0.0,
+      "text_unsafe_compliance_rate": 0.0
+    }
+  },
+  "gpt_5_4_mini_seed7": {
+    "original": {
+      "temporal_AUSR": 1.0,
+      "static_AUSR": 1.0,
+      "text_AUSR": 0.9375,
+      "temporal_minus_static_AUSR": 0.0,
+      "temporal_minus_text_AUSR": 0.0625,
+      "temporal_unsafe_compliance_rate": 0.0,
+      "static_unsafe_compliance_rate": 0.0,
+      "text_unsafe_compliance_rate": 0.05
+    },
+    "reverse": {
+      "temporal_AUSR": 1.0,
+      "static_AUSR": 1.0,
+      "text_AUSR": 1.0,
+      "temporal_minus_static_AUSR": 0.0,
+      "temporal_minus_text_AUSR": 0.0,
+      "temporal_unsafe_compliance_rate": 0.0,
+      "static_unsafe_compliance_rate": 0.0,
+      "text_unsafe_compliance_rate": 0.0
+    },
+    "shuffle": {
+      "temporal_AUSR": 1.0,
+      "static_AUSR": 1.0,
+      "text_AUSR": 1.0,
+      "temporal_minus_static_AUSR": 0.0,
+      "temporal_minus_text_AUSR": 0.0,
+      "temporal_unsafe_compliance_rate": 0.0,
+      "static_unsafe_compliance_rate": 0.0,
+      "text_unsafe_compliance_rate": 0.0
+    }
+  }
+}

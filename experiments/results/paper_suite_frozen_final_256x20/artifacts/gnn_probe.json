@@ -1,0 +1,45 @@
+{
+  "graph_cache_dir": "experiments/results/paper_graph_cache_256/seed7_gru_e3",
+  "n_test_cases": 20,
+  "fraud": {
+    "static": {
+      "n": 20,
+      "mean": 0.7738,
+      "std": 0.0358,
+      "min": 0.6801,
+      "max": 0.842
+    },
+    "temporal": {
+      "n": 20,
+      "mean": 0.8017,
+      "std": 0.03,
+      "min": 0.7172,
+      "max": 0.8292
+    }
+  },
+  "benign": {
+    "static": {
+      "n": 20,
+      "mean": 0.3524,
+      "std": 0.0207,
+      "min": 0.3203,
+      "max": 0.3876
+    },
+    "temporal": {
+      "n": 20,
+      "mean": 0.073,
+      "std": 0.0351,
+      "min": 0.052,
+      "max": 0.1645
+    }
+  },
+  "fraud_vs_benign_gap": {
+    "static": 0.4214,
+    "temporal": 0.7287
+  },
+  "zero_feature_baseline": {
+    "static": 0.5087,
+    "temporal": 0.1403
+  },
+  "interpretation": "Wide fraud-vs-benign gap supports the claim that the trained encoders discriminate fraud from benign cleanly. Zero-feature baseline that collapses toward the midpoint indicates the encoders use their inputs. Within-fraud std characterizes per-case discrimination: small std means the encoder is saturated on fraud and provides a binary-like signal to the LLM."
+}

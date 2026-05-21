@@ -1,0 +1,123 @@
+{
+  "n_test_cases": 160,
+  "seed": 7,
+  "backbone": "Qwen/Qwen2.5-1.5B-Instruct",
+  "real_benign_run": "experiments/results/paper_q2_scale160_seed7",
+  "shuffled_benign_run": "experiments/results/paper_q2_ablation160_benign_seed7",
+  "ablation_mode": "shuffle_risk",
+  "comparison": {
+    "benign_replay_static_graph": {
+      "over_refusal_rate": {
+        "real": 0.975,
+        "shuffled": 0.9812,
+        "diff_shuf_minus_real": 0.0062
+      },
+      "final_action_counts": {
+        "real": {
+          "REJECT": 156,
+          "ASK": 4
+        },
+        "shuffled": {
+          "REJECT": 157,
+          "ASK": 3
+        }
+      },
+      "n": 160
+    },
+    "benign_replay_temporal_graph": {
+      "over_refusal_rate": {
+        "real": 0.875,
+        "shuffled": 0.9812,
+        "diff_shuf_minus_real": 0.1062
+      },
+      "final_action_counts": {
+        "real": {
+          "REJECT": 140,
+          "ASK": 20
+        },
+        "shuffled": {
+          "REJECT": 157,
+          "ASK": 3
+        }
+      },
+      "n": 160
+    },
+    "benign_replay_text_only": {
+      "over_refusal_rate": {
+        "real": 0.3438,
+        "shuffled": 0.3438,
+        "diff_shuf_minus_real": 0.0
+      },
+      "final_action_counts": {
+        "real": {
+          "ASK": 105,
+          "REJECT": 55
+        },
+        "shuffled": {
+          "ASK": 105,
+          "REJECT": 55
+        }
+      },
+      "n": 160
+    },
+    "benign_single_turn_static_graph": {
+      "over_refusal_rate": {
+        "real": 0.6875,
+        "shuffled": 0.9,
+        "diff_shuf_minus_real": 0.2125
+      },
+      "final_action_counts": {
+        "real": {
+          "REJECT": 110,
+          "ASK": 50
+        },
+        "shuffled": {
+          "REJECT": 144,
+          "ASK": 16
+        }
+      },
+      "n": 160
+    },
+    "benign_single_turn_temporal_graph": {
+      "over_refusal_rate": {
+        "real": 0.725,
+        "shuffled": 0.775,
+        "diff_shuf_minus_real": 0.05
+      },
+      "final_action_counts": {
+        "real": {
+          "REJECT": 116,
+          "ASK": 44
+        },
+        "shuffled": {
+          "REJECT": 124,
+          "ASK": 36
+        }
+      },
+      "n": 160
+    },
+    "benign_single_turn_text_only": {
+      "over_refusal_rate": {
+        "real": 0.4437,
+        "shuffled": 0.4437,
+        "diff_shuf_minus_real": 0.0
+      },
+      "final_action_counts": {
+        "real": {
+          "ASK": 89,
+          "REJECT": 71
+        },
+        "shuffled": {
+          "ASK": 89,
+          "REJECT": 71
+        }
+      },
+      "n": 160
+    }
+  },
+  "decomposition": {
+    "structure_presence_effect": "text_only -> real_graph (LLM gains structured graph_context with the encoder's correct low risk-score)",
+    "score_magnitude_effect": "real_graph -> shuffled_risk (only the risk_score field changes, from low ~0.07-0.35 to fraud-partner high ~0.7-0.85)"
+  },
+  "interpretation_summary": "Structure presence is the dominant component of benign over-refusal (text->real ranges 0.24 to 0.63). Score magnitude is a secondary, asymmetric component (real->shuffled ranges 0.05 to 0.21): the LLM responds more strongly to high risk-score signals than it credits low risk-score signals as a restraint. Both components sit on the LLM side, not the graph-encoder side. The clearest case is benign_replay_temporal (real ORR 0.875, shuffled ORR 0.981) \u2014 the encoder correctly rates these benign cases at ~0.07, but the LLM still over-refuses 87.5% of them, and shuffling fraud-case high scores into the same dicts pushes over-refusal to ceiling."
+}

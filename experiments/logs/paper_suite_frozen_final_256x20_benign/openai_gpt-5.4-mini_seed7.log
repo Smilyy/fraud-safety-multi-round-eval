@@ -1,0 +1,8 @@
+
+[safe-suite] starting: python experiments/src/run_fraud_r1_joint_graph.py --base-data experiments/data/Fraud-R1/dataset/FP-base-full/FP-base-English.json --levelup-data experiments/data/Fraud-R1/dataset/FP-levelup-full/FP-levelup-English.json --language English --model openai:gpt-5.4-mini --attacker-model Qwen/Qwen2.5-1.5B-Instruct --graph-epochs 3 --graph-device cpu --graph-cache-dir experiments/results/paper_graph_cache_256/seed7_gru_e3 --llm-device cuda --attacker-device auto --max-input-tokens 768 --max-threads 2 --temporal-backbone gru --seed 7 --split-manifest experiments/results/paper_shared_split_seed7/split_manifest.json --outdir experiments/results/paper_suite_frozen_final_256x20/openai_gpt-5.4-mini_seed7 --progress-every 10 --attacker-modes replay adaptive --with-benign-controls --only-benign-controls --train-limit 256 --test-limit 20
+[graph-cache] loaded cached graph models from experiments/results/paper_graph_cache_256/seed7_gru_e3
+[benign_single_turn] completed 10/20 cases
+[benign_single_turn] completed 20/20 cases
+[benign_replay] completed 10/20 cases
+[benign_replay] completed 20/20 cases
+[safe-suite] exit_code=0

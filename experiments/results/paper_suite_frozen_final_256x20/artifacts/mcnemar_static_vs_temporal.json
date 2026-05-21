@@ -1,0 +1,114 @@
+{
+  "comparisons": {
+    "replay__ESR@1": {
+      "n_pairs": 80,
+      "static_only_reject": 1,
+      "temporal_only_reject": 3,
+      "both_reject": 73,
+      "neither_reject": 3,
+      "discordant_pairs": 4,
+      "static_better_share": 0.25,
+      "p_value_two_sided": 0.625,
+      "interpretation": "p > 0.05 with non-trivial concordance => static_graph and temporal_graph are not statistically distinguishable on this binary outcome at this N; interpret directional differences as suggestive only."
+    },
+    "replay__ESR@2": {
+      "n_pairs": 80,
+      "static_only_reject": 0,
+      "temporal_only_reject": 3,
+      "both_reject": 76,
+      "neither_reject": 1,
+      "discordant_pairs": 3,
+      "static_better_share": 0.0,
+      "p_value_two_sided": 0.25,
+      "interpretation": "p > 0.05 with non-trivial concordance => static_graph and temporal_graph are not statistically distinguishable on this binary outcome at this N; interpret directional differences as suggestive only."
+    },
+    "replay__ESR@3": {
+      "n_pairs": 80,
+      "static_only_reject": 1,
+      "temporal_only_reject": 3,
+      "both_reject": 76,
+      "neither_reject": 0,
+      "discordant_pairs": 4,
+      "static_better_share": 0.25,
+      "p_value_two_sided": 0.625,
+      "interpretation": "p > 0.05 with non-trivial concordance => static_graph and temporal_graph are not statistically distinguishable on this binary outcome at this N; interpret directional differences as suggestive only."
+    },
+    "replay__ESR@4": {
+      "n_pairs": 80,
+      "static_only_reject": 1,
+      "temporal_only_reject": 3,
+      "both_reject": 76,
+      "neither_reject": 0,
+      "discordant_pairs": 4,
+      "static_better_share": 0.25,
+      "p_value_two_sided": 0.625,
+      "interpretation": "p > 0.05 with non-trivial concordance => static_graph and temporal_graph are not statistically distinguishable on this binary outcome at this N; interpret directional differences as suggestive only."
+    },
+    "replay__any_reject": {
+      "n_pairs": 80,
+      "static_only_reject": 1,
+      "temporal_only_reject": 3,
+      "both_reject": 76,
+      "neither_reject": 0,
+      "discordant_pairs": 4,
+      "static_better_share": 0.25,
+      "p_value_two_sided": 0.625,
+      "interpretation": "p > 0.05 with non-trivial concordance => static_graph and temporal_graph are not statistically distinguishable on this binary outcome at this N; interpret directional differences as suggestive only."
+    },
+    "adaptive__ESR@1": {
+      "n_pairs": 80,
+      "static_only_reject": 1,
+      "temporal_only_reject": 3,
+      "both_reject": 73,
+      "neither_reject": 3,
+      "discordant_pairs": 4,
+      "static_better_share": 0.25,
+      "p_value_two_sided": 0.625,
+      "interpretation": "p > 0.05 with non-trivial concordance => static_graph and temporal_graph are not statistically distinguishable on this binary outcome at this N; interpret directional differences as suggestive only."
+    },
+    "adaptive__ESR@2": {
+      "n_pairs": 80,
+      "static_only_reject": 1,
+      "temporal_only_reject": 3,
+      "both_reject": 73,
+      "neither_reject": 3,
+      "discordant_pairs": 4,
+      "static_better_share": 0.25,
+      "p_value_two_sided": 0.625,
+      "interpretation": "p > 0.05 with non-trivial concordance => static_graph and temporal_graph are not statistically distinguishable on this binary outcome at this N; interpret directional differences as suggestive only."
+    },
+    "adaptive__ESR@3": {
+      "n_pairs": 80,
+      "static_only_reject": 2,
+      "temporal_only_reject": 3,
+      "both_reject": 75,
+      "neither_reject": 0,
+      "discordant_pairs": 5,
+      "static_better_share": 0.4,
+      "p_value_two_sided": 1.0,
+      "interpretation": "p > 0.05 with non-trivial concordance => static_graph and temporal_graph are not statistically distinguishable on this binary outcome at this N; interpret directional differences as suggestive only."
+    },
+    "adaptive__ESR@4": {
+      "n_pairs": 80,
+      "static_only_reject": 2,
+      "temporal_only_reject": 3,
+      "both_reject": 75,
+      "neither_reject": 0,
+      "discordant_pairs": 5,
+      "static_better_share": 0.4,
+      "p_value_two_sided": 1.0,
+      "interpretation": "p > 0.05 with non-trivial concordance => static_graph and temporal_graph are not statistically distinguishable on this binary outcome at this N; interpret directional differences as suggestive only."
+    },
+    "adaptive__any_reject": {
+      "n_pairs": 80,
+      "static_only_reject": 2,
+      "temporal_only_reject": 3,
+      "both_reject": 75,
+      "neither_reject": 0,
+      "discordant_pairs": 5,
+      "static_better_share": 0.4,
+      "p_value_two_sided": 1.0,
+      "interpretation": "p > 0.05 with non-trivial concordance => static_graph and temporal_graph are not statistically distinguishable on this binary outcome at this N; interpret directional differences as suggestive only."
+    }
+  }
+}

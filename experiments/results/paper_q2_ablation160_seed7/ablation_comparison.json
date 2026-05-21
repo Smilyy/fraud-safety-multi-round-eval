@@ -1,0 +1,274 @@
+{
+  "n_test_cases": 160,
+  "seed": 7,
+  "backbone": "Qwen/Qwen2.5-1.5B-Instruct",
+  "real_graph_run": "experiments/results/paper_q2_scale160_seed7",
+  "shuffled_graph_run": "experiments/results/paper_q2_ablation160_seed7",
+  "ablation_mode": "shuffle_risk",
+  "comparison": {
+    "adaptive_static_graph": {
+      "AUSR": {
+        "real": 0.8391,
+        "shuffled": 0.8594,
+        "diff_shuf_minus_real": 0.0203
+      },
+      "ESR@1": {
+        "real": 0.7688,
+        "shuffled": 0.7812
+      },
+      "n": 160,
+      "final_action_counts": {
+        "real": {
+          "REJECT": 141,
+          "ASK": 19
+        },
+        "shuffled": {
+          "REJECT": 146,
+          "ASK": 14
+        }
+      },
+      "grounding_score": {
+        "real": 0.6854,
+        "shuffled": 0.6438
+      }
+    },
+    "adaptive_temporal_graph": {
+      "AUSR": {
+        "real": 0.8735,
+        "shuffled": 0.9015,
+        "diff_shuf_minus_real": 0.028
+      },
+      "ESR@1": {
+        "real": 0.8063,
+        "shuffled": 0.8187
+      },
+      "n": 160,
+      "final_action_counts": {
+        "real": {
+          "REJECT": 147,
+          "ASK": 13
+        },
+        "shuffled": {
+          "REJECT": 151,
+          "ASK": 9
+        }
+      },
+      "grounding_score": {
+        "real": 0.8562,
+        "shuffled": 0.85
+      }
+    },
+    "adaptive_text_only": {
+      "AUSR": {
+        "real": 0.7797,
+        "shuffled": 0.7688,
+        "diff_shuf_minus_real": -0.0109
+      },
+      "ESR@1": {
+        "real": 0.6375,
+        "shuffled": 0.6375
+      },
+      "n": 160,
+      "final_action_counts": {
+        "real": {
+          "REJECT": 140,
+          "ASK": 20
+        },
+        "shuffled": {
+          "REJECT": 138,
+          "ASK": 22
+        }
+      },
+      "grounding_score": {
+        "real": 0.7969,
+        "shuffled": 0.7844
+      }
+    },
+    "replay_static_graph": {
+      "AUSR": {
+        "real": 0.8562,
+        "shuffled": 0.875,
+        "diff_shuf_minus_real": 0.0188
+      },
+      "ESR@1": {
+        "real": 0.7688,
+        "shuffled": 0.7812
+      },
+      "n": 160,
+      "final_action_counts": {
+        "real": {
+          "REJECT": 143,
+          "ASK": 16,
+          "COMPLY": 1
+        },
+        "shuffled": {
+          "REJECT": 147,
+          "ASK": 11,
+          "COMPLY": 2
+        }
+      },
+      "grounding_score": {
+        "real": 0.6083,
+        "shuffled": 0.6104
+      }
+    },
+    "replay_temporal_graph": {
+      "AUSR": {
+        "real": 0.8781,
+        "shuffled": 0.8859,
+        "diff_shuf_minus_real": 0.0078
+      },
+      "ESR@1": {
+        "real": 0.8063,
+        "shuffled": 0.8187
+      },
+      "n": 160,
+      "final_action_counts": {
+        "real": {
+          "REJECT": 145,
+          "ASK": 14,
+          "COMPLY": 1
+        },
+        "shuffled": {
+          "REJECT": 147,
+          "ASK": 12,
+          "COMPLY": 1
+        }
+      },
+      "grounding_score": {
+        "real": 0.7979,
+        "shuffled": 0.8
+      }
+    },
+    "replay_text_only": {
+      "AUSR": {
+        "real": 0.7625,
+        "shuffled": 0.7625,
+        "diff_shuf_minus_real": 0.0
+      },
+      "ESR@1": {
+        "real": 0.6375,
+        "shuffled": 0.6375
+      },
+      "n": 160,
+      "final_action_counts": {
+        "real": {
+          "REJECT": 133,
+          "ASK": 27
+        },
+        "shuffled": {
+          "REJECT": 133,
+          "ASK": 27
+        }
+      },
+      "grounding_score": {
+        "real": 0.6969,
+        "shuffled": 0.6969
+      }
+    },
+    "single_turn_static_graph": {
+      "AUSR": {
+        "real": 0.7688,
+        "shuffled": 0.7812,
+        "diff_shuf_minus_real": 0.0124
+      },
+      "ESR@1": {
+        "real": 0.7688,
+        "shuffled": 0.7812
+      },
+      "n": 160,
+      "final_action_counts": {
+        "real": {
+          "REJECT": 123,
+          "ASK": 37
+        },
+        "shuffled": {
+          "REJECT": 125,
+          "ASK": 35
+        }
+      },
+      "grounding_score": {
+        "real": 0.7271,
+        "shuffled": 0.7031
+      }
+    },
+    "single_turn_temporal_graph": {
+      "AUSR": {
+        "real": 0.8063,
+        "shuffled": 0.8187,
+        "diff_shuf_minus_real": 0.0124
+      },
+      "ESR@1": {
+        "real": 0.8063,
+        "shuffled": 0.8187
+      },
+      "n": 160,
+      "final_action_counts": {
+        "real": {
+          "REJECT": 129,
+          "ASK": 31
+        },
+        "shuffled": {
+          "REJECT": 131,
+          "ASK": 29
+        }
+      },
+      "grounding_score": {
+        "real": 0.8208,
+        "shuffled": 0.8333
+      }
+    },
+    "single_turn_text_only": {
+      "AUSR": {
+        "real": 0.6375,
+        "shuffled": 0.6375,
+        "diff_shuf_minus_real": 0.0
+      },
+      "ESR@1": {
+        "real": 0.6375,
+        "shuffled": 0.6375
+      },
+      "n": 160,
+      "final_action_counts": {
+        "real": {
+          "REJECT": 102,
+          "ASK": 58
+        },
+        "shuffled": {
+          "REJECT": 102,
+          "ASK": 58
+        }
+      },
+      "grounding_score": {
+        "real": 0.8406,
+        "shuffled": 0.8406
+      }
+    }
+  },
+  "benign_real_graph_only": {
+    "benign_replay_static_graph": {
+      "over_refusal_rate": 0.975
+    },
+    "benign_replay_temporal_graph": {
+      "over_refusal_rate": 0.875
+    },
+    "benign_replay_text_only": {
+      "over_refusal_rate": 0.3438
+    },
+    "benign_single_turn_static_graph": {
+      "over_refusal_rate": 0.6875
+    },
+    "benign_single_turn_temporal_graph": {
+      "over_refusal_rate": 0.725
+    },
+    "benign_single_turn_text_only": {
+      "over_refusal_rate": 0.4437
+    }
+  },
+  "interpretation_summary": "Across all graph-context settings (single_turn, replay, adaptive; static and temporal), AUSR with the shuffled-risk control is at least as high as with the real graph, and often slightly higher. Both real and shuffled graph contexts massively outperform text-only (e.g., replay temporal AUSR: text_only=0.7625, real=0.8781, shuffled=0.8859). The text-only baselines reproduce exactly across runs as a sanity check. We interpret this as evidence that the defender LLM, on this Qwen-1.5B setup with the current prompt, does not exploit the per-case GNN risk-score magnitude meaningfully; it responds to the presence of the structured graph context. This localizes the safety-utility tradeoff to LLM context consumption rather than to graph-encoder quality.",
+  "caveats": [
+    "Run 2 (shuffle_risk) did not include benign controls, so we cannot yet measure whether shuffling reduces benign over-refusal symmetrically. This is the natural follow-up.",
+    "Shuffle preserves marginal distribution of fraud-case risk-scores (range ~0.68-0.85). LLM does not see low-risk substitutes, only different high-risk substitutes. A wider-shuffle ablation could probe whether the LLM responds to score values at all.",
+    "Single seed (seed=7), single backbone (Qwen-1.5B). Replication on seed 11 and a second backbone would strengthen the claim."
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "comparisons": {
+    "replay_temporal_graph__vs__replay_text_only": {
+      "setting_a": "replay_temporal_graph",
+      "setting_b": "replay_text_only",
+      "n_pairs": 80,
+      "AUSR": {
+        "setting_a_mean": 0.9781,
+        "setting_b_mean": 0.8469,
+        "mean_diff_a_minus_b": 0.1313,
+        "p_value": 0.0004,
+        "ci95_diff_a_minus_b": [
+          0.0656,
+          0.2062
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      },
+      "ESR@1": {
+        "setting_a_mean": 0.95,
+        "setting_b_mean": 0.775,
+        "mean_diff_a_minus_b": 0.175,
+        "p_value": 0.0009,
+        "ci95_diff_a_minus_b": [
+          0.075,
+          0.275
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      },
+      "unsafe_compliance_rate": {
+        "setting_a_mean": 0.0,
+        "setting_b_mean": 0.075,
+        "mean_diff_a_minus_b": -0.075,
+        "p_value": 0.032097,
+        "ci95_diff_a_minus_b": [
+          -0.1375,
+          -0.025
+        ],
+        "direction": "lower",
+        "preferred": "setting_a"
+      },
+      "avg_latency_penalized": {
+        "setting_a_mean": 1.0875,
+        "setting_b_mean": 1.6125,
+        "mean_diff_a_minus_b": -0.525,
+        "p_value": 0.0006,
+        "ci95_diff_a_minus_b": [
+          -0.825,
+          -0.25
+        ],
+        "direction": "lower",
+        "preferred": "setting_a"
+      },
+      "grounding_score": {
+        "setting_a_mean": 0.9708,
+        "setting_b_mean": 0.8375,
+        "mean_diff_a_minus_b": 0.1333,
+        "p_value": 0.0033,
+        "ci95_diff_a_minus_b": [
+          0.05,
+          0.2208
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      }
+    },
+    "replay_temporal_graph__vs__replay_static_graph": {
+      "setting_a": "replay_temporal_graph",
+      "setting_b": "replay_static_graph",
+      "n_pairs": 80,
+      "AUSR": {
+        "setting_a_mean": 0.9781,
+        "setting_b_mean": 0.95,
+        "mean_diff_a_minus_b": 0.0281,
+        "p_value": 0.260374,
+        "ci95_diff_a_minus_b": [
+          -0.0094,
+          0.075
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      },
+      "ESR@1": {
+        "setting_a_mean": 0.95,
+        "setting_b_mean": 0.925,
+        "mean_diff_a_minus_b": 0.025,
+        "p_value": 0.624638,
+        "ci95_diff_a_minus_b": [
+          -0.025,
+          0.075
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      },
+      "unsafe_compliance_rate": {
+        "setting_a_mean": 0.0,
+        "setting_b_mean": 0.0,
+        "mean_diff_a_minus_b": 0.0,
+        "p_value": 1.0,
+        "ci95_diff_a_minus_b": [
+          0.0,
+          0.0
+        ],
+        "direction": "lower",
+        "preferred": "setting_a"
+      },
+      "avg_latency_penalized": {
+        "setting_a_mean": 1.0875,
+        "setting_b_mean": 1.2,
+        "mean_diff_a_minus_b": -0.1125,
+        "p_value": 0.246375,
+        "ci95_diff_a_minus_b": [
+          -0.3,
+          0.0375
+        ],
+        "direction": "lower",
+        "preferred": "setting_a"
+      },
+      "grounding_score": {
+        "setting_a_mean": 0.9708,
+        "setting_b_mean": 0.8,
+        "mean_diff_a_minus_b": 0.1708,
+        "p_value": 0.0006,
+        "ci95_diff_a_minus_b": [
+          0.0833,
+          0.2625
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      }
+    },
+    "adaptive_temporal_graph__vs__adaptive_text_only": {
+      "setting_a": "adaptive_temporal_graph",
+      "setting_b": "adaptive_text_only",
+      "n_pairs": 80,
+      "AUSR": {
+        "setting_a_mean": 0.9625,
+        "setting_b_mean": 0.8375,
+        "mean_diff_a_minus_b": 0.125,
+        "p_value": 0.0027,
+        "ci95_diff_a_minus_b": [
+          0.0469,
+          0.2062
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      },
+      "ESR@1": {
+        "setting_a_mean": 0.95,
+        "setting_b_mean": 0.775,
+        "mean_diff_a_minus_b": 0.175,
+        "p_value": 0.0009,
+        "ci95_diff_a_minus_b": [
+          0.075,
+          0.275
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      },
+      "unsafe_compliance_rate": {
+        "setting_a_mean": 0.0,
+        "setting_b_mean": 0.075,
+        "mean_diff_a_minus_b": -0.075,
+        "p_value": 0.032097,
+        "ci95_diff_a_minus_b": [
+          -0.1375,
+          -0.025
+        ],
+        "direction": "lower",
+        "preferred": "setting_a"
+      },
+      "avg_latency_penalized": {
+        "setting_a_mean": 1.15,
+        "setting_b_mean": 1.65,
+        "mean_diff_a_minus_b": -0.5,
+        "p_value": 0.0038,
+        "ci95_diff_a_minus_b": [
+          -0.8375,
+          -0.1875
+        ],
+        "direction": "lower",
+        "preferred": "setting_a"
+      },
+      "grounding_score": {
+        "setting_a_mean": 0.9625,
+        "setting_b_mean": 0.8375,
+        "mean_diff_a_minus_b": 0.125,
+        "p_value": 0.006299,
+        "ci95_diff_a_minus_b": [
+          0.05,
+          0.2125
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      }
+    },
+    "adaptive_temporal_graph__vs__adaptive_static_graph": {
+      "setting_a": "adaptive_temporal_graph",
+      "setting_b": "adaptive_static_graph",
+      "n_pairs": 80,
+      "AUSR": {
+        "setting_a_mean": 0.9625,
+        "setting_b_mean": 0.9437,
+        "mean_diff_a_minus_b": 0.0187,
+        "p_value": 0.628537,
+        "ci95_diff_a_minus_b": [
+          -0.025,
+          0.0688
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      },
+      "ESR@1": {
+        "setting_a_mean": 0.95,
+        "setting_b_mean": 0.925,
+        "mean_diff_a_minus_b": 0.025,
+        "p_value": 0.624638,
+        "ci95_diff_a_minus_b": [
+          -0.025,
+          0.075
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      },
+      "unsafe_compliance_rate": {
+        "setting_a_mean": 0.0,
+        "setting_b_mean": 0.0,
+        "mean_diff_a_minus_b": 0.0,
+        "p_value": 1.0,
+        "ci95_diff_a_minus_b": [
+          0.0,
+          0.0
+        ],
+        "direction": "lower",
+        "preferred": "setting_a"
+      },
+      "avg_latency_penalized": {
+        "setting_a_mean": 1.15,
+        "setting_b_mean": 1.225,
+        "mean_diff_a_minus_b": -0.075,
+        "p_value": 0.620638,
+        "ci95_diff_a_minus_b": [
+          -0.275,
+          0.125
+        ],
+        "direction": "lower",
+        "preferred": "setting_a"
+      },
+      "grounding_score": {
+        "setting_a_mean": 0.9625,
+        "setting_b_mean": 0.825,
+        "mean_diff_a_minus_b": 0.1375,
+        "p_value": 0.0011,
+        "ci95_diff_a_minus_b": [
+          0.0625,
+          0.2125
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      }
+    },
+    "replay_text_only__vs__adaptive_text_only": {
+      "setting_a": "replay_text_only",
+      "setting_b": "adaptive_text_only",
+      "n_pairs": 80,
+      "AUSR": {
+        "setting_a_mean": 0.8469,
+        "setting_b_mean": 0.8375,
+        "mean_diff_a_minus_b": 0.0094,
+        "p_value": 0.569743,
+        "ci95_diff_a_minus_b": [
+          -0.0094,
+          0.0312
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      },
+      "ESR@1": {
+        "setting_a_mean": 0.775,
+        "setting_b_mean": 0.775,
+        "mean_diff_a_minus_b": 0.0,
+        "p_value": 1.0,
+        "ci95_diff_a_minus_b": [
+          0.0,
+          0.0
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      },
+      "unsafe_compliance_rate": {
+        "setting_a_mean": 0.075,
+        "setting_b_mean": 0.075,
+        "mean_diff_a_minus_b": 0.0,
+        "p_value": 1.0,
+        "ci95_diff_a_minus_b": [
+          0.0,
+          0.0
+        ],
+        "direction": "lower",
+        "preferred": "setting_a"
+      },
+      "avg_latency_penalized": {
+        "setting_a_mean": 1.6125,
+        "setting_b_mean": 1.65,
+        "mean_diff_a_minus_b": -0.0375,
+        "p_value": 0.563544,
+        "ci95_diff_a_minus_b": [
+          -0.125,
+          0.0375
+        ],
+        "direction": "lower",
+        "preferred": "setting_a"
+      },
+      "grounding_score": {
+        "setting_a_mean": 0.8375,
+        "setting_b_mean": 0.8375,
+        "mean_diff_a_minus_b": 0.0,
+        "p_value": 1.0,
+        "ci95_diff_a_minus_b": [
+          -0.0375,
+          0.0375
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      }
+    },
+    "replay_static_graph__vs__adaptive_static_graph": {
+      "setting_a": "replay_static_graph",
+      "setting_b": "adaptive_static_graph",
+      "n_pairs": 80,
+      "AUSR": {
+        "setting_a_mean": 0.95,
+        "setting_b_mean": 0.9437,
+        "mean_diff_a_minus_b": 0.0063,
+        "p_value": 0.751125,
+        "ci95_diff_a_minus_b": [
+          -0.0156,
+          0.0312
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      },
+      "ESR@1": {
+        "setting_a_mean": 0.925,
+        "setting_b_mean": 0.925,
+        "mean_diff_a_minus_b": 0.0,
+        "p_value": 1.0,
+        "ci95_diff_a_minus_b": [
+          0.0,
+          0.0
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      },
+      "unsafe_compliance_rate": {
+        "setting_a_mean": 0.0,
+        "setting_b_mean": 0.0,
+        "mean_diff_a_minus_b": 0.0,
+        "p_value": 1.0,
+        "ci95_diff_a_minus_b": [
+          0.0,
+          0.0
+        ],
+        "direction": "lower",
+        "preferred": "setting_a"
+      },
+      "avg_latency_penalized": {
+        "setting_a_mean": 1.2,
+        "setting_b_mean": 1.225,
+        "mean_diff_a_minus_b": -0.025,
+        "p_value": 0.756724,
+        "ci95_diff_a_minus_b": [
+          -0.125,
+          0.05
+        ],
+        "direction": "lower",
+        "preferred": "setting_a"
+      },
+      "grounding_score": {
+        "setting_a_mean": 0.8,
+        "setting_b_mean": 0.825,
+        "mean_diff_a_minus_b": -0.025,
+        "p_value": 0.624038,
+        "ci95_diff_a_minus_b": [
+          -0.075,
+          0.025
+        ],
+        "direction": "higher",
+        "preferred": "setting_b"
+      }
+    },
+    "replay_temporal_graph__vs__adaptive_temporal_graph": {
+      "setting_a": "replay_temporal_graph",
+      "setting_b": "adaptive_temporal_graph",
+      "n_pairs": 80,
+      "AUSR": {
+        "setting_a_mean": 0.9781,
+        "setting_b_mean": 0.9625,
+        "mean_diff_a_minus_b": 0.0156,
+        "p_value": 0.377862,
+        "ci95_diff_a_minus_b": [
+          -0.0094,
+          0.0469
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      },
+      "ESR@1": {
+        "setting_a_mean": 0.95,
+        "setting_b_mean": 0.95,
+        "mean_diff_a_minus_b": 0.0,
+        "p_value": 1.0,
+        "ci95_diff_a_minus_b": [
+          0.0,
+          0.0
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      },
+      "unsafe_compliance_rate": {
+        "setting_a_mean": 0.0,
+        "setting_b_mean": 0.0,
+        "mean_diff_a_minus_b": 0.0,
+        "p_value": 1.0,
+        "ci95_diff_a_minus_b": [
+          0.0,
+          0.0
+        ],
+        "direction": "lower",
+        "preferred": "setting_a"
+      },
+      "avg_latency_penalized": {
+        "setting_a_mean": 1.0875,
+        "setting_b_mean": 1.15,
+        "mean_diff_a_minus_b": -0.0625,
+        "p_value": 0.371963,
+        "ci95_diff_a_minus_b": [
+          -0.2,
+          0.0375
+        ],
+        "direction": "lower",
+        "preferred": "setting_a"
+      },
+      "grounding_score": {
+        "setting_a_mean": 0.9708,
+        "setting_b_mean": 0.9625,
+        "mean_diff_a_minus_b": 0.0083,
+        "p_value": 1.0,
+        "ci95_diff_a_minus_b": [
+          -0.0292,
+          0.05
+        ],
+        "direction": "higher",
+        "preferred": "setting_a"
+      }
+    }
+  }
+}

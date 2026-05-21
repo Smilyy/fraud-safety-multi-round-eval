@@ -1,0 +1,155 @@
+{
+  "adaptive_static_graph": {
+    "n": 40,
+    "ESR@1": 0.8,
+    "ESR@2": 0.825,
+    "ESR@3": 0.875,
+    "ESR@4": 0.875,
+    "AUSR": 0.8438,
+    "unsafe_compliance_rate": 0.0,
+    "non_compliance_rate": 1.0,
+    "avg_safe_rejection_round": 1.1429,
+    "avg_latency_penalized": 1.625,
+    "final_action_counts": {
+      "REJECT": 35,
+      "ASK": 5
+    },
+    "grounding_score": 0.7,
+    "avg_evidence_tag_count": 1.625
+  },
+  "adaptive_temporal_graph": {
+    "n": 40,
+    "ESR@1": 0.825,
+    "ESR@2": 0.925,
+    "ESR@3": 0.95,
+    "ESR@4": 0.95,
+    "AUSR": 0.9125,
+    "unsafe_compliance_rate": 0.0,
+    "non_compliance_rate": 1.0,
+    "avg_safe_rejection_round": 1.1579,
+    "avg_latency_penalized": 1.35,
+    "final_action_counts": {
+      "REJECT": 38,
+      "ASK": 2
+    },
+    "grounding_score": 0.9,
+    "avg_evidence_tag_count": 1.475
+  },
+  "adaptive_text_only": {
+    "n": 40,
+    "ESR@1": 0.6,
+    "ESR@2": 0.75,
+    "ESR@3": 0.85,
+    "ESR@4": 0.925,
+    "AUSR": 0.7812,
+    "unsafe_compliance_rate": 0.0,
+    "non_compliance_rate": 1.0,
+    "avg_safe_rejection_round": 1.6216,
+    "avg_latency_penalized": 1.875,
+    "final_action_counts": {
+      "REJECT": 37,
+      "ASK": 3
+    },
+    "grounding_score": 0.8,
+    "avg_evidence_tag_count": 1.4
+  },
+  "replay_static_graph": {
+    "n": 40,
+    "ESR@1": 0.8,
+    "ESR@2": 0.875,
+    "ESR@3": 0.875,
+    "ESR@4": 0.875,
+    "AUSR": 0.8562,
+    "unsafe_compliance_rate": 0.0,
+    "non_compliance_rate": 1.0,
+    "avg_safe_rejection_round": 1.0857,
+    "avg_latency_penalized": 1.575,
+    "final_action_counts": {
+      "REJECT": 35,
+      "ASK": 5
+    },
+    "grounding_score": 0.6,
+    "avg_evidence_tag_count": 1.425
+  },
+  "replay_temporal_graph": {
+    "n": 40,
+    "ESR@1": 0.825,
+    "ESR@2": 0.925,
+    "ESR@3": 0.925,
+    "ESR@4": 0.925,
+    "AUSR": 0.9,
+    "unsafe_compliance_rate": 0.0,
+    "non_compliance_rate": 1.0,
+    "avg_safe_rejection_round": 1.1081,
+    "avg_latency_penalized": 1.4,
+    "final_action_counts": {
+      "REJECT": 37,
+      "ASK": 3
+    },
+    "grounding_score": 0.8667,
+    "avg_evidence_tag_count": 1.55
+  },
+  "replay_text_only": {
+    "n": 40,
+    "ESR@1": 0.6,
+    "ESR@2": 0.775,
+    "ESR@3": 0.825,
+    "ESR@4": 0.875,
+    "AUSR": 0.7688,
+    "unsafe_compliance_rate": 0.0,
+    "non_compliance_rate": 1.0,
+    "avg_safe_rejection_round": 1.4857,
+    "avg_latency_penalized": 1.925,
+    "final_action_counts": {
+      "REJECT": 35,
+      "ASK": 5
+    },
+    "grounding_score": 0.725,
+    "avg_evidence_tag_count": 1.575
+  },
+  "single_turn_static_graph": {
+    "n": 40,
+    "ESR@1": 0.8,
+    "AUSR": 0.8,
+    "unsafe_compliance_rate": 0.0,
+    "non_compliance_rate": 1.0,
+    "avg_safe_rejection_round": 1.0,
+    "avg_latency_penalized": 1.2,
+    "final_action_counts": {
+      "REJECT": 32,
+      "ASK": 8
+    },
+    "grounding_score": 0.6917,
+    "avg_evidence_tag_count": 1.675
+  },
+  "single_turn_temporal_graph": {
+    "n": 40,
+    "ESR@1": 0.825,
+    "AUSR": 0.825,
+    "unsafe_compliance_rate": 0.0,
+    "non_compliance_rate": 1.0,
+    "avg_safe_rejection_round": 1.0,
+    "avg_latency_penalized": 1.175,
+    "final_action_counts": {
+      "REJECT": 33,
+      "ASK": 7
+    },
+    "grounding_score": 0.825,
+    "avg_evidence_tag_count": 1.45
+  },
+  "single_turn_text_only": {
+    "n": 40,
+    "ESR@1": 0.6,
+    "AUSR": 0.6,
+    "unsafe_compliance_rate": 0.0,
+    "non_compliance_rate": 1.0,
+    "avg_safe_rejection_round": 1.0,
+    "avg_latency_penalized": 1.4,
+    "final_action_counts": {
+      "REJECT": 24,
+      "ASK": 16
+    },
+    "grounding_score": 0.8,
+    "avg_evidence_tag_count": 1.7
+  }
+}

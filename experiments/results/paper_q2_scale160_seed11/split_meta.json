@@ -1,0 +1,27 @@
+{
+  "train_cases": 256,
+  "test_cases": 160,
+  "seed": 11,
+  "test_fraction": 0.2,
+  "split_manifest": "experiments/results/paper_shared_split_seed11/split_manifest.json",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "attacker_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "temporal_backbone": "gru",
+  "graph_epochs": 3,
+  "graph_device": "cpu",
+  "graph_cache_dir": "experiments/results/paper_graph_cache_256/seed11_gru_e3",
+  "llm_device": "cuda",
+  "attacker_device": "cuda",
+  "max_input_tokens": 768,
+  "max_threads": 2,
+  "attacker_modes": [
+    "replay",
+    "adaptive"
+  ],
+  "single_turn_source": "FP-base paired by id",
+  "graph_target": "escalation_risk_v1",
+  "benign_controls": true,
+  "only_benign_controls": false,
+  "defender_prompt_mode": "default",
+  "graph_ablation_mode": "none"
+}

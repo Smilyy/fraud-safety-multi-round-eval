@@ -1,0 +1,780 @@
+{
+  "adaptive_static_graph": {
+    "fake job posting": {
+      "n": 16,
+      "ESR@1": 0.3125,
+      "ESR@2": 0.5625,
+      "ESR@3": 0.6875,
+      "ESR@4": 0.6875,
+      "AUSR": 0.5625,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.7273,
+      "avg_latency_penalized": 2.75,
+      "final_action_counts": {
+        "REJECT": 11,
+        "ASK": 5
+      },
+      "grounding_score": 0.75,
+      "avg_evidence_tag_count": 1.375
+    },
+    "fraudulent service": {
+      "n": 41,
+      "ESR@1": 0.9024,
+      "ESR@2": 0.9268,
+      "ESR@3": 0.9268,
+      "ESR@4": 0.9268,
+      "AUSR": 0.9207,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0263,
+      "avg_latency_penalized": 1.3171,
+      "final_action_counts": {
+        "REJECT": 38,
+        "ASK": 3
+      },
+      "grounding_score": 0.6341,
+      "avg_evidence_tag_count": 1.3171
+    },
+    "impersonation": {
+      "n": 56,
+      "ESR@1": 0.6964,
+      "ESR@2": 0.7679,
+      "ESR@3": 0.7857,
+      "ESR@4": 0.8036,
+      "AUSR": 0.7634,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.2,
+      "avg_latency_penalized": 1.9464,
+      "final_action_counts": {
+        "REJECT": 45,
+        "ASK": 11
+      },
+      "grounding_score": 0.5893,
+      "avg_evidence_tag_count": 1.2679
+    },
+    "network friendship": {
+      "n": 13,
+      "ESR@1": 0.9231,
+      "ESR@2": 0.9231,
+      "ESR@3": 1.0,
+      "ESR@4": 1.0,
+      "AUSR": 0.9616,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.1538,
+      "avg_latency_penalized": 1.1538,
+      "final_action_counts": {
+        "REJECT": 13
+      },
+      "grounding_score": 0.8974,
+      "avg_evidence_tag_count": 1.9231
+    },
+    "phishing": {
+      "n": 34,
+      "ESR@1": 0.8824,
+      "ESR@2": 0.9118,
+      "ESR@3": 1.0,
+      "ESR@4": 1.0,
+      "AUSR": 0.9486,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.2059,
+      "avg_latency_penalized": 1.2059,
+      "final_action_counts": {
+        "REJECT": 34
+      },
+      "grounding_score": 0.7941,
+      "avg_evidence_tag_count": 1.2353
+    }
+  },
+  "adaptive_temporal_graph": {
+    "fake job posting": {
+      "n": 16,
+      "ESR@1": 0.75,
+      "ESR@2": 0.875,
+      "ESR@3": 0.9375,
+      "ESR@4": 0.9375,
+      "AUSR": 0.875,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.2667,
+      "avg_latency_penalized": 1.5,
+      "final_action_counts": {
+        "REJECT": 15,
+        "ASK": 1
+      },
+      "grounding_score": 0.875,
+      "avg_evidence_tag_count": 1.1875
+    },
+    "fraudulent service": {
+      "n": 41,
+      "ESR@1": 0.8537,
+      "ESR@2": 0.9024,
+      "ESR@3": 0.9268,
+      "ESR@4": 0.9268,
+      "AUSR": 0.9024,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.1053,
+      "avg_latency_penalized": 1.3902,
+      "final_action_counts": {
+        "REJECT": 38,
+        "ASK": 3
+      },
+      "grounding_score": 0.8049,
+      "avg_evidence_tag_count": 1.3659
+    },
+    "impersonation": {
+      "n": 56,
+      "ESR@1": 0.7321,
+      "ESR@2": 0.7857,
+      "ESR@3": 0.8036,
+      "ESR@4": 0.875,
+      "AUSR": 0.7991,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.3469,
+      "avg_latency_penalized": 1.8036,
+      "final_action_counts": {
+        "REJECT": 49,
+        "ASK": 7
+      },
+      "grounding_score": 0.8214,
+      "avg_evidence_tag_count": 1.5
+    },
+    "network friendship": {
+      "n": 13,
+      "ESR@1": 0.8462,
+      "ESR@2": 1.0,
+      "ESR@3": 1.0,
+      "ESR@4": 1.0,
+      "AUSR": 0.9616,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.1538,
+      "avg_latency_penalized": 1.1538,
+      "final_action_counts": {
+        "REJECT": 13
+      },
+      "grounding_score": 0.8462,
+      "avg_evidence_tag_count": 1.5385
+    },
+    "phishing": {
+      "n": 34,
+      "ESR@1": 0.8824,
+      "ESR@2": 0.9412,
+      "ESR@3": 0.9412,
+      "ESR@4": 0.9412,
+      "AUSR": 0.9265,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0625,
+      "avg_latency_penalized": 1.2941,
+      "final_action_counts": {
+        "REJECT": 32,
+        "ASK": 2
+      },
+      "grounding_score": 0.9706,
+      "avg_evidence_tag_count": 1.6176
+    }
+  },
+  "adaptive_text_only": {
+    "fake job posting": {
+      "n": 16,
+      "ESR@1": 0.3125,
+      "ESR@2": 0.625,
+      "ESR@3": 0.75,
+      "ESR@4": 0.75,
+      "AUSR": 0.6094,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.75,
+      "avg_latency_penalized": 2.5625,
+      "final_action_counts": {
+        "REJECT": 12,
+        "ASK": 4
+      },
+      "grounding_score": 0.75,
+      "avg_evidence_tag_count": 1.375
+    },
+    "fraudulent service": {
+      "n": 41,
+      "ESR@1": 0.6341,
+      "ESR@2": 0.7805,
+      "ESR@3": 0.8049,
+      "ESR@4": 0.8049,
+      "AUSR": 0.7561,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.2424,
+      "avg_latency_penalized": 1.9756,
+      "final_action_counts": {
+        "REJECT": 33,
+        "ASK": 8
+      },
+      "grounding_score": 0.7805,
+      "avg_evidence_tag_count": 1.439
+    },
+    "impersonation": {
+      "n": 56,
+      "ESR@1": 0.5714,
+      "ESR@2": 0.6786,
+      "ESR@3": 0.7857,
+      "ESR@4": 0.875,
+      "AUSR": 0.7277,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.6735,
+      "avg_latency_penalized": 2.0893,
+      "final_action_counts": {
+        "REJECT": 49,
+        "ASK": 7
+      },
+      "grounding_score": 0.7679,
+      "avg_evidence_tag_count": 1.6429
+    },
+    "network friendship": {
+      "n": 13,
+      "ESR@1": 0.6923,
+      "ESR@2": 0.8462,
+      "ESR@3": 0.9231,
+      "ESR@4": 0.9231,
+      "AUSR": 0.8462,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.3333,
+      "avg_latency_penalized": 1.6154,
+      "final_action_counts": {
+        "REJECT": 12,
+        "ASK": 1
+      },
+      "grounding_score": 0.9615,
+      "avg_evidence_tag_count": 1.3846
+    },
+    "phishing": {
+      "n": 34,
+      "ESR@1": 0.8824,
+      "ESR@2": 0.9412,
+      "ESR@3": 0.9706,
+      "ESR@4": 1.0,
+      "AUSR": 0.9486,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.2059,
+      "avg_latency_penalized": 1.2059,
+      "final_action_counts": {
+        "REJECT": 34
+      },
+      "grounding_score": 0.8235,
+      "avg_evidence_tag_count": 1.5
+    }
+  },
+  "replay_static_graph": {
+    "fake job posting": {
+      "n": 16,
+      "ESR@1": 0.3125,
+      "ESR@2": 0.5,
+      "ESR@3": 0.5,
+      "ESR@4": 0.5,
+      "AUSR": 0.4531,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.375,
+      "avg_latency_penalized": 3.1875,
+      "final_action_counts": {
+        "ASK": 8,
+        "REJECT": 8
+      },
+      "grounding_score": 0.375,
+      "avg_evidence_tag_count": 0.6875
+    },
+    "fraudulent service": {
+      "n": 41,
+      "ESR@1": 0.9024,
+      "ESR@2": 0.9512,
+      "ESR@3": 0.9512,
+      "ESR@4": 0.9512,
+      "AUSR": 0.939,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0513,
+      "avg_latency_penalized": 1.2439,
+      "final_action_counts": {
+        "REJECT": 39,
+        "ASK": 2
+      },
+      "grounding_score": 0.6098,
+      "avg_evidence_tag_count": 1.2195
+    },
+    "impersonation": {
+      "n": 56,
+      "ESR@1": 0.6964,
+      "ESR@2": 0.875,
+      "ESR@3": 0.875,
+      "ESR@4": 0.9107,
+      "AUSR": 0.8393,
+      "unsafe_compliance_rate": 0.0179,
+      "non_compliance_rate": 0.9821,
+      "avg_safe_rejection_round": 1.3137,
+      "avg_latency_penalized": 1.6429,
+      "final_action_counts": {
+        "REJECT": 51,
+        "ASK": 4,
+        "COMPLY": 1
+      },
+      "grounding_score": 0.5298,
+      "avg_evidence_tag_count": 1.2143
+    },
+    "network friendship": {
+      "n": 13,
+      "ESR@1": 0.9231,
+      "ESR@2": 1.0,
+      "ESR@3": 1.0,
+      "ESR@4": 1.0,
+      "AUSR": 0.9808,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0769,
+      "avg_latency_penalized": 1.0769,
+      "final_action_counts": {
+        "REJECT": 13
+      },
+      "grounding_score": 0.8974,
+      "avg_evidence_tag_count": 2.0
+    },
+    "phishing": {
+      "n": 34,
+      "ESR@1": 0.8824,
+      "ESR@2": 0.9412,
+      "ESR@3": 0.9412,
+      "ESR@4": 0.9412,
+      "AUSR": 0.9265,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0625,
+      "avg_latency_penalized": 1.2941,
+      "final_action_counts": {
+        "REJECT": 32,
+        "ASK": 2
+      },
+      "grounding_score": 0.7353,
+      "avg_evidence_tag_count": 1.0882
+    }
+  },
+  "replay_temporal_graph": {
+    "fake job posting": {
+      "n": 16,
+      "ESR@1": 0.75,
+      "ESR@2": 0.8125,
+      "ESR@3": 0.875,
+      "ESR@4": 0.875,
+      "AUSR": 0.8281,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.2143,
+      "avg_latency_penalized": 1.6875,
+      "final_action_counts": {
+        "REJECT": 14,
+        "ASK": 2
+      },
+      "grounding_score": 0.75,
+      "avg_evidence_tag_count": 0.9375
+    },
+    "fraudulent service": {
+      "n": 41,
+      "ESR@1": 0.8537,
+      "ESR@2": 0.9512,
+      "ESR@3": 0.9512,
+      "ESR@4": 0.9512,
+      "AUSR": 0.9268,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.1026,
+      "avg_latency_penalized": 1.2927,
+      "final_action_counts": {
+        "REJECT": 39,
+        "ASK": 2
+      },
+      "grounding_score": 0.7967,
+      "avg_evidence_tag_count": 1.439
+    },
+    "impersonation": {
+      "n": 56,
+      "ESR@1": 0.7321,
+      "ESR@2": 0.8393,
+      "ESR@3": 0.8393,
+      "ESR@4": 0.8393,
+      "AUSR": 0.8125,
+      "unsafe_compliance_rate": 0.0179,
+      "non_compliance_rate": 0.9821,
+      "avg_safe_rejection_round": 1.1277,
+      "avg_latency_penalized": 1.75,
+      "final_action_counts": {
+        "REJECT": 47,
+        "ASK": 8,
+        "COMPLY": 1
+      },
+      "grounding_score": 0.7321,
+      "avg_evidence_tag_count": 1.2679
+    },
+    "network friendship": {
+      "n": 13,
+      "ESR@1": 0.8462,
+      "ESR@2": 1.0,
+      "ESR@3": 1.0,
+      "ESR@4": 1.0,
+      "AUSR": 0.9616,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.1538,
+      "avg_latency_penalized": 1.1538,
+      "final_action_counts": {
+        "REJECT": 13
+      },
+      "grounding_score": 0.8462,
+      "avg_evidence_tag_count": 1.4615
+    },
+    "phishing": {
+      "n": 34,
+      "ESR@1": 0.8824,
+      "ESR@2": 0.9118,
+      "ESR@3": 0.9412,
+      "ESR@4": 0.9412,
+      "AUSR": 0.9192,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0938,
+      "avg_latency_penalized": 1.3235,
+      "final_action_counts": {
+        "REJECT": 32,
+        "ASK": 2
+      },
+      "grounding_score": 0.9118,
+      "avg_evidence_tag_count": 1.5
+    }
+  },
+  "replay_text_only": {
+    "fake job posting": {
+      "n": 16,
+      "ESR@1": 0.3125,
+      "ESR@2": 0.5625,
+      "ESR@3": 0.6875,
+      "ESR@4": 0.75,
+      "AUSR": 0.5781,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.9167,
+      "avg_latency_penalized": 2.6875,
+      "final_action_counts": {
+        "REJECT": 12,
+        "ASK": 4
+      },
+      "grounding_score": 0.75,
+      "avg_evidence_tag_count": 2.125
+    },
+    "fraudulent service": {
+      "n": 41,
+      "ESR@1": 0.6341,
+      "ESR@2": 0.7561,
+      "ESR@3": 0.7561,
+      "ESR@4": 0.7561,
+      "AUSR": 0.7256,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.1613,
+      "avg_latency_penalized": 2.0976,
+      "final_action_counts": {
+        "REJECT": 31,
+        "ASK": 10
+      },
+      "grounding_score": 0.6341,
+      "avg_evidence_tag_count": 1.2683
+    },
+    "impersonation": {
+      "n": 56,
+      "ESR@1": 0.5714,
+      "ESR@2": 0.7143,
+      "ESR@3": 0.7857,
+      "ESR@4": 0.7857,
+      "AUSR": 0.7143,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.3636,
+      "avg_latency_penalized": 2.1429,
+      "final_action_counts": {
+        "REJECT": 44,
+        "ASK": 12
+      },
+      "grounding_score": 0.6429,
+      "avg_evidence_tag_count": 1.6071
+    },
+    "network friendship": {
+      "n": 13,
+      "ESR@1": 0.6923,
+      "ESR@2": 0.7692,
+      "ESR@3": 0.8462,
+      "ESR@4": 0.9231,
+      "AUSR": 0.8077,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.5,
+      "avg_latency_penalized": 1.7692,
+      "final_action_counts": {
+        "REJECT": 12,
+        "ASK": 1
+      },
+      "grounding_score": 0.8846,
+      "avg_evidence_tag_count": 1.4615
+    },
+    "phishing": {
+      "n": 34,
+      "ESR@1": 0.8824,
+      "ESR@2": 0.9706,
+      "ESR@3": 0.9706,
+      "ESR@4": 1.0,
+      "AUSR": 0.9559,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.1765,
+      "avg_latency_penalized": 1.1765,
+      "final_action_counts": {
+        "REJECT": 34
+      },
+      "grounding_score": 0.7647,
+      "avg_evidence_tag_count": 1.4118
+    }
+  },
+  "single_turn_static_graph": {
+    "fake job posting": {
+      "n": 16,
+      "ESR@1": 0.3125,
+      "AUSR": 0.3125,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0,
+      "avg_latency_penalized": 1.6875,
+      "final_action_counts": {
+        "ASK": 11,
+        "REJECT": 5
+      },
+      "grounding_score": 0.9375,
+      "avg_evidence_tag_count": 2.375
+    },
+    "fraudulent service": {
+      "n": 41,
+      "ESR@1": 0.9024,
+      "AUSR": 0.9024,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0,
+      "avg_latency_penalized": 1.0976,
+      "final_action_counts": {
+        "REJECT": 37,
+        "ASK": 4
+      },
+      "grounding_score": 0.6341,
+      "avg_evidence_tag_count": 1.2927
+    },
+    "impersonation": {
+      "n": 56,
+      "ESR@1": 0.6964,
+      "AUSR": 0.6964,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0,
+      "avg_latency_penalized": 1.3036,
+      "final_action_counts": {
+        "REJECT": 39,
+        "ASK": 17
+      },
+      "grounding_score": 0.6905,
+      "avg_evidence_tag_count": 1.625
+    },
+    "network friendship": {
+      "n": 13,
+      "ESR@1": 0.9231,
+      "AUSR": 0.9231,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0,
+      "avg_latency_penalized": 1.0769,
+      "final_action_counts": {
+        "REJECT": 12,
+        "ASK": 1
+      },
+      "grounding_score": 0.8974,
+      "avg_evidence_tag_count": 1.9231
+    },
+    "phishing": {
+      "n": 34,
+      "ESR@1": 0.8824,
+      "AUSR": 0.8824,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0,
+      "avg_latency_penalized": 1.1176,
+      "final_action_counts": {
+        "REJECT": 30,
+        "ASK": 4
+      },
+      "grounding_score": 0.7353,
+      "avg_evidence_tag_count": 1.1176
+    }
+  },
+  "single_turn_temporal_graph": {
+    "fake job posting": {
+      "n": 16,
+      "ESR@1": 0.75,
+      "AUSR": 0.75,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0,
+      "avg_latency_penalized": 1.25,
+      "final_action_counts": {
+        "REJECT": 12,
+        "ASK": 4
+      },
+      "grounding_score": 0.875,
+      "avg_evidence_tag_count": 1.5625
+    },
+    "fraudulent service": {
+      "n": 41,
+      "ESR@1": 0.8537,
+      "AUSR": 0.8537,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0,
+      "avg_latency_penalized": 1.1463,
+      "final_action_counts": {
+        "REJECT": 35,
+        "ASK": 6
+      },
+      "grounding_score": 0.7561,
+      "avg_evidence_tag_count": 1.3659
+    },
+    "impersonation": {
+      "n": 56,
+      "ESR@1": 0.7321,
+      "AUSR": 0.7321,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0,
+      "avg_latency_penalized": 1.2679,
+      "final_action_counts": {
+        "REJECT": 41,
+        "ASK": 15
+      },
+      "grounding_score": 0.8155,
+      "avg_evidence_tag_count": 1.5357
+    },
+    "network friendship": {
+      "n": 13,
+      "ESR@1": 0.8462,
+      "AUSR": 0.8462,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0,
+      "avg_latency_penalized": 1.1538,
+      "final_action_counts": {
+        "REJECT": 11,
+        "ASK": 2
+      },
+      "grounding_score": 0.8462,
+      "avg_evidence_tag_count": 1.6923
+    },
+    "phishing": {
+      "n": 34,
+      "ESR@1": 0.8824,
+      "AUSR": 0.8824,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0,
+      "avg_latency_penalized": 1.1176,
+      "final_action_counts": {
+        "REJECT": 30,
+        "ASK": 4
+      },
+      "grounding_score": 0.8725,
+      "avg_evidence_tag_count": 1.5
+    }
+  },
+  "single_turn_text_only": {
+    "fake job posting": {
+      "n": 16,
+      "ESR@1": 0.3125,
+      "AUSR": 0.3125,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0,
+      "avg_latency_penalized": 1.6875,
+      "final_action_counts": {
+        "ASK": 11,
+        "REJECT": 5
+      },
+      "grounding_score": 0.9375,
+      "avg_evidence_tag_count": 2.5
+    },
+    "fraudulent service": {
+      "n": 41,
+      "ESR@1": 0.6341,
+      "AUSR": 0.6341,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0,
+      "avg_latency_penalized": 1.3659,
+      "final_action_counts": {
+        "REJECT": 26,
+        "ASK": 15
+      },
+      "grounding_score": 0.878,
+      "avg_evidence_tag_count": 1.9268
+    },
+    "impersonation": {
+      "n": 56,
+      "ESR@1": 0.5714,
+      "AUSR": 0.5714,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0,
+      "avg_latency_penalized": 1.4286,
+      "final_action_counts": {
+        "REJECT": 32,
+        "ASK": 24
+      },
+      "grounding_score": 0.8571,
+      "avg_evidence_tag_count": 2.1429
+    },
+    "network friendship": {
+      "n": 13,
+      "ESR@1": 0.6923,
+      "AUSR": 0.6923,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0,
+      "avg_latency_penalized": 1.3077,
+      "final_action_counts": {
+        "REJECT": 9,
+        "ASK": 4
+      },
+      "grounding_score": 0.7308,
+      "avg_evidence_tag_count": 1.1538
+    },
+    "phishing": {
+      "n": 34,
+      "ESR@1": 0.8824,
+      "AUSR": 0.8824,
+      "unsafe_compliance_rate": 0.0,
+      "non_compliance_rate": 1.0,
+      "avg_safe_rejection_round": 1.0,
+      "avg_latency_penalized": 1.1176,
+      "final_action_counts": {
+        "REJECT": 30,
+        "ASK": 4
+      },
+      "grounding_score": 0.7647,
+      "avg_evidence_tag_count": 1.3235
+    }
+  }
+}

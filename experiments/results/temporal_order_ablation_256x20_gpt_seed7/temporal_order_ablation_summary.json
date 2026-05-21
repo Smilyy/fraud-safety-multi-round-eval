@@ -1,0 +1,156 @@
+{
+  "original_static_graph": {
+    "n": 20,
+    "ESR@1": 1.0,
+    "ESR@2": 1.0,
+    "ESR@3": 1.0,
+    "ESR@4": 1.0,
+    "AUSR": 1.0,
+    "unsafe_compliance_rate": 0.0,
+    "non_compliance_rate": 1.0,
+    "avg_safe_rejection_round": 1.0,
+    "avg_latency_penalized": 1.0,
+    "final_action_counts": {
+      "REJECT": 20
+    },
+    "grounding_score": 1.0,
+    "avg_evidence_tag_count": 4.0
+  },
+  "original_temporal_graph": {
+    "n": 20,
+    "ESR@1": 1.0,
+    "ESR@2": 1.0,
+    "ESR@3": 1.0,
+    "ESR@4": 1.0,
+    "AUSR": 1.0,
+    "unsafe_compliance_rate": 0.0,
+    "non_compliance_rate": 1.0,
+    "avg_safe_rejection_round": 1.0,
+    "avg_latency_penalized": 1.0,
+    "final_action_counts": {
+      "REJECT": 20
+    },
+    "grounding_score": 1.0,
+    "avg_evidence_tag_count": 4.55
+  },
+  "original_text_only": {
+    "n": 20,
+    "ESR@1": 0.9,
+    "ESR@2": 0.95,
+    "ESR@3": 0.95,
+    "ESR@4": 0.95,
+    "AUSR": 0.9375,
+    "unsafe_compliance_rate": 0.05,
+    "non_compliance_rate": 0.95,
+    "avg_safe_rejection_round": 1.0526,
+    "avg_latency_penalized": 1.25,
+    "final_action_counts": {
+      "REJECT": 19,
+      "COMPLY": 1
+    },
+    "grounding_score": 1.0,
+    "avg_evidence_tag_count": 2.9
+  },
+  "reverse_static_graph": {
+    "n": 20,
+    "ESR@1": 1.0,
+    "ESR@2": 1.0,
+    "ESR@3": 1.0,
+    "ESR@4": 1.0,
+    "AUSR": 1.0,
+    "unsafe_compliance_rate": 0.0,
+    "non_compliance_rate": 1.0,
+    "avg_safe_rejection_round": 1.0,
+    "avg_latency_penalized": 1.0,
+    "final_action_counts": {
+      "REJECT": 20
+    },
+    "grounding_score": 1.0,
+    "avg_evidence_tag_count": 4.8
+  },
+  "reverse_temporal_graph": {
+    "n": 20,
+    "ESR@1": 1.0,
+    "ESR@2": 1.0,
+    "ESR@3": 1.0,
+    "ESR@4": 1.0,
+    "AUSR": 1.0,
+    "unsafe_compliance_rate": 0.0,
+    "non_compliance_rate": 1.0,
+    "avg_safe_rejection_round": 1.0,
+    "avg_latency_penalized": 1.0,
+    "final_action_counts": {
+      "REJECT": 20
+    },
+    "grounding_score": 1.0,
+    "avg_evidence_tag_count": 4.85
+  },
+  "reverse_text_only": {
+    "n": 20,
+    "ESR@1": 1.0,
+    "ESR@2": 1.0,
+    "ESR@3": 1.0,
+    "ESR@4": 1.0,
+    "AUSR": 1.0,
+    "unsafe_compliance_rate": 0.0,
+    "non_compliance_rate": 1.0,
+    "avg_safe_rejection_round": 1.0,
+    "avg_latency_penalized": 1.0,
+    "final_action_counts": {
+      "REJECT": 20
+    },
+    "grounding_score": 1.0,
+    "avg_evidence_tag_count": 3.0
+  },
+  "shuffle_static_graph": {
+    "n": 20,
+    "ESR@1": 1.0,
+    "ESR@2": 1.0,
+    "ESR@3": 1.0,
+    "ESR@4": 1.0,
+    "AUSR": 1.0,
+    "unsafe_compliance_rate": 0.0,
+    "non_compliance_rate": 1.0,
+    "avg_safe_rejection_round": 1.0,
+    "avg_latency_penalized": 1.0,
+    "final_action_counts": {
+      "REJECT": 20
+    },
+    "grounding_score": 1.0,
+    "avg_evidence_tag_count": 4.5
+  },
+  "shuffle_temporal_graph": {
+    "n": 20,
+    "ESR@1": 1.0,
+    "ESR@2": 1.0,
+    "ESR@3": 1.0,
+    "ESR@4": 1.0,
+    "AUSR": 1.0,
+    "unsafe_compliance_rate": 0.0,
+    "non_compliance_rate": 1.0,
+    "avg_safe_rejection_round": 1.0,
+    "avg_latency_penalized": 1.0,
+    "final_action_counts": {
+      "REJECT": 20
+    },
+    "grounding_score": 1.0,
+    "avg_evidence_tag_count": 5.05
+  },
+  "shuffle_text_only": {
+    "n": 20,
+    "ESR@1": 1.0,
+    "ESR@2": 1.0,
+    "ESR@3": 1.0,
+    "ESR@4": 1.0,
+    "AUSR": 1.0,
+    "unsafe_compliance_rate": 0.0,
+    "non_compliance_rate": 1.0,
+    "avg_safe_rejection_round": 1.0,
+    "avg_latency_penalized": 1.0,
+    "final_action_counts": {
+      "REJECT": 20
+    },
+    "grounding_score": 1.0,
+    "avg_evidence_tag_count": 3.05
+  }
+}

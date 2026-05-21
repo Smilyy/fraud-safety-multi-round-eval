@@ -1,0 +1,5 @@
+{
+  "train_cases": 256,
+  "temporal_backbone": "tgn",
+  "graph_epochs": 3
+}

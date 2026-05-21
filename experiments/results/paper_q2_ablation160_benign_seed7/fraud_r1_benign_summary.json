@@ -1,0 +1,89 @@
+{
+  "benign_replay_static_graph": {
+    "n": 160,
+    "ORR@1": 0.9125,
+    "ORR@2": 0.9625,
+    "ORR@3": 0.975,
+    "ORR@4": 0.9812,
+    "over_refusal_rate": 0.9812,
+    "non_reject_rate": 0.0187,
+    "benign_comply_rate": 0.0,
+    "avg_latency_penalized": 1.1687,
+    "final_action_counts": {
+      "REJECT": 157,
+      "ASK": 3
+    },
+    "grounding_score": 0.4875
+  },
+  "benign_replay_temporal_graph": {
+    "n": 160,
+    "ORR@1": 0.4313,
+    "ORR@2": 0.9563,
+    "ORR@3": 0.9563,
+    "ORR@4": 0.9812,
+    "over_refusal_rate": 0.9812,
+    "non_reject_rate": 0.0187,
+    "benign_comply_rate": 0.0,
+    "avg_latency_penalized": 1.675,
+    "final_action_counts": {
+      "REJECT": 157,
+      "ASK": 3
+    },
+    "grounding_score": 0.675
+  },
+  "benign_replay_text_only": {
+    "n": 160,
+    "ORR@1": 0.1062,
+    "ORR@2": 0.325,
+    "ORR@3": 0.325,
+    "ORR@4": 0.3438,
+    "over_refusal_rate": 0.3438,
+    "non_reject_rate": 0.6562,
+    "benign_comply_rate": 0.0,
+    "avg_latency_penalized": 3.9,
+    "final_action_counts": {
+      "ASK": 105,
+      "REJECT": 55
+    },
+    "grounding_score": 0.1688
+  },
+  "benign_single_turn_static_graph": {
+    "n": 160,
+    "ORR@1": 0.9,
+    "over_refusal_rate": 0.9,
+    "non_reject_rate": 0.1,
+    "benign_comply_rate": 0.0,
+    "avg_latency_penalized": 1.1,
+    "final_action_counts": {
+      "REJECT": 144,
+      "ASK": 16
+    },
+    "grounding_score": 0.7188
+  },
+  "benign_single_turn_temporal_graph": {
+    "n": 160,
+    "ORR@1": 0.775,
+    "over_refusal_rate": 0.775,
+    "non_reject_rate": 0.225,
+    "benign_comply_rate": 0.0,
+    "avg_latency_penalized": 1.225,
+    "final_action_counts": {
+      "REJECT": 124,
+      "ASK": 36
+    },
+    "grounding_score": 0.6125
+  },
+  "benign_single_turn_text_only": {
+    "n": 160,
+    "ORR@1": 0.4437,
+    "over_refusal_rate": 0.4437,
+    "non_reject_rate": 0.5563,
+    "benign_comply_rate": 0.0,
+    "avg_latency_penalized": 1.5562,
+    "final_action_counts": {
+      "ASK": 89,
+      "REJECT": 71
+    },
+    "grounding_score": 0.3125
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "seed": 1,
+  "epochs": 30,
+  "hidden_dim": 64,
+  "lr": 0.001,
+  "nodes": 444521,
+  "edges": 367137,
+  "splits": {
+    "train_components": 85266,
+    "val_components": 18271,
+    "test_components": 18273
+  },
+  "train": {
+    "roc_auc": 0.5396,
+    "average_precision": 0.0267,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "positive_rate": 0.0241,
+    "n": 311494
+  },
+  "val": {
+    "roc_auc": 0.5358,
+    "average_precision": 0.0247,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "positive_rate": 0.0224,
+    "n": 65975
+  },
+  "test": {
+    "roc_auc": 0.5554,
+    "average_precision": 0.0248,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "positive_rate": 0.022,
+    "n": 67052
+  }
+}
