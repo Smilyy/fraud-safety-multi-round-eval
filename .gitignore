@@ -39,7 +39,8 @@ experiments/results/paper_graph_cache_512/
 experiments/results/paper_graph_cache_856/
 
 # Bulky raw datasets (use experiments/src/download_data.sh to fetch)
-experiments/data/elliptic2/
+experiments/data/elliptic2/*
+!experiments/data/elliptic2/README.md
 experiments/data/sting9_site/
 
 # Hugging Face / Torch caches if they ever land here
