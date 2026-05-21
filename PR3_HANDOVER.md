@@ -10,7 +10,7 @@
 | **Date** | 2026-05-21 |
 | **Source code repository** | https://github.com/Smilyy/fraud-safety-multi-round-eval |
 | **arXiv preprint** | https://arxiv.org/abs/2605.20759 |
-| **Video walkthrough** | *(insert clickable link here once recorded)* |
+| **Video walkthrough** | [OneDrive link](https://curtin-my.sharepoint.com/:v:/g/personal/22742957_student_curtin_edu_au/IQDay-GdZmazSLJZe2sVpN-pAfLGCgXzAPCO-VGNH4Kqv7s?e=m0BZgx) |
 
 > **Note on team structure.** This is nominally a group assignment; in practice it was completed solo because the project is research-oriented (a paper) rather than a full-stack software product. Reza Ryan is the formal supervisor. Qian Li and Nasim Ferdosian (Curtin staff) provided advisory review of the paper draft and are recognised as co-authors on the arXiv submission; on this Requirements Form, that contribution is recorded under *Acknowledgments* rather than the Student(s) column, which is reserved for student contributors.
 
