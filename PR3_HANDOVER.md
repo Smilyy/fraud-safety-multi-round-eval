@@ -8,8 +8,8 @@
 | **Student** | Laura Jiang |
 | **Student ID** | 22742957 |
 | **Date** | 2026-05-21 |
-| **Source code repository** | https://github.com/Smilyy/fraud-safety-multi-round-eval |
-| **arXiv preprint** | https://arxiv.org/abs/2605.20759 |
+| **Source code repository** | [github.com/Smilyy/fraud-safety-multi-round-eval](https://github.com/Smilyy/fraud-safety-multi-round-eval) |
+| **arXiv preprint** | [arxiv.org/abs/2605.20759](https://arxiv.org/abs/2605.20759) |
 | **Video walkthrough** | [OneDrive link](https://curtin-my.sharepoint.com/:v:/g/personal/22742957_student_curtin_edu_au/IQDay-GdZmazSLJZe2sVpN-pAfLGCgXzAPCO-VGNH4Kqv7s?e=m0BZgx) |
 
 > **Note on team structure.** This is nominally a group assignment; in practice it was completed solo because the project is research-oriented (a paper) rather than a full-stack software product. Reza Ryan is the formal supervisor. Qian Li and Nasim Ferdosian (Curtin staff) provided advisory review of the paper draft and are recognised as co-authors on the arXiv submission; on this Requirements Form, that contribution is recorded under *Acknowledgments* rather than the Student(s) column, which is reserved for student contributors.
@@ -279,6 +279,22 @@ The frozen-suite design — fixed split manifest, cached graph encoders, single 
 
 ---
 
-## 8. Acknowledgments
+## 8. Video Walkthrough
+
+A short walkthrough video demonstrates the project end-to-end so that a reviewer outside the project can reproduce the headline result without prior context. The recording covers, in order:
+
+1. Opening the paper PDF and reading the abstract.
+2. Browsing the public GitHub repository and walking through the README.
+3. Cloning the repo and creating the conda environment from `environment.yml`.
+4. Running the five-minute CPU smoke check from the Quickstart section of the README.
+5. Inspecting the frozen paper artifacts under `experiments/results/paper_suite_frozen_final_256x20/` that correspond to the headline numbers in the abstract.
+
+**Video walkthrough (clickable link):** [https://curtin-my.sharepoint.com/:v:/g/personal/22742957_student_curtin_edu_au/IQDay-GdZmazSLJZe2sVpN-pAfLGCgXzAPCO-VGNH4Kqv7s?e=m0BZgx](https://curtin-my.sharepoint.com/:v:/g/personal/22742957_student_curtin_edu_au/IQDay-GdZmazSLJZe2sVpN-pAfLGCgXzAPCO-VGNH4Kqv7s?e=m0BZgx)
+
+The video is hosted on Curtin OneDrive and shared with the supervisor and unit coordinator.
+
+---
+
+## Acknowledgments
 
 This work was carried out at Curtin University. The author thanks Reza Ryan for supervision, and Qian Li and Nasim Ferdosian for advisory review of the paper draft.
