@@ -78,3 +78,6 @@ paper/*.bbl
 paper/*.toc
 paper/*.synctex.gz
 VIDEO_SCRIPT.md
+
+# Duplicate paper PDF kept locally for personal viewing (main.pdf is authoritative)
+paper/Rethinking_Fraud_Safety_Evaluation_.pdf
